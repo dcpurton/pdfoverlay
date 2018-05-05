@@ -1,0 +1,1154 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [1]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\special{color push gray 0}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 217.2fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Overlayed
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 on
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 1.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [2]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 217.2fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Overlayed
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 on
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 2.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+Completed box being shipped out [3]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 3.06
+...\hbox(6.94+2.05998)x345.0, glue set 205.23999fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 between
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 pages
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 2
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 and
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 3.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [4]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [5]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [6]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 217.2fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Overlayed
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 on
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 5.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [7]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 212.76fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Overlayed
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 on
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 3.
+....\glue 4.44 plus 4.99498 minus 0.37
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [8]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [9]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 217.2fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Overlayed
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 on
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 5.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+Completed box being shipped out [10]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 2.95
+...\hbox(7.05+2.05998)x345.0, glue set 241.31fil
+....\hbox(0.0+0.0)x15.0
+....\TU/lmr/m/n/10 Text
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 after
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 last
+....\glue 3.33 plus 1.665 minus 1.11
+....\TU/lmr/m/n/10 page.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue -2.05998
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [11]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Completed box being shipped out [12]
+\vbox(682.0+0.0)x398.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\hbox(0.0+422.52342)x0.0, shifted -845.04684
+.........\kern 0.0
+.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
+..........\kern 298.75394
+..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\hbox(845.045+0.0)x597.50684
+.............\hbox(845.04706+0.0)x597.5083
+..............\hbox(845.04706+0.0)x597.5083
+...............\hbox(845.04706+0.0)x0.0
+................\special{pdf:btrans}
+................\special{x:scale 1 1}
+................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
+.................\hbox(845.04706+0.0)x597.5083
+..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
+.................\glue 0.0 plus 1.0fil minus 1.0fil
+................\special{pdf:etrans}
+...............\kern 597.5083
+...............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern 0.0
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue 17.0
+.\vbox(665.0+0.0)x345.0, shifted 53.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x345.0
+....\special{color pop}
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 30.0
+..\hbox(0.0+0.0)x345.0
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x345.0
+...\special{color pop}
+.\kern 0.0
+.\kern -682.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.27
+..\vbox(0.0+0.0)x345.0, glue set 72.27fil
+...\kern -72.27
+...\glue(\parskip) 0.0
+...\hbox(0.0+0.0)x345.0, glue set 345.0fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+......\hbox(0.0+845.04684)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted 845.04684
+........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 682.0
+(pdfoverlay001.aux)

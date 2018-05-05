@@ -1,0 +1,210 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+\g__file_internal_ior=\read...
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-found"
+! 
+! PDF file 'not-found.pdf' not found.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySetPDF{not-found.pdf}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| Unable to find the file 'not-found.pdf'.
+| Check that the file exists and you have spelt it correctly.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{1}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{1}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToLastPage
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{0}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 0.
+| Specify a page between 1 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+[1
+<./pdfoverlay-sample.pdf>]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [2
+<./pdfoverlay-sample.pdf>]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [3
+<./pdfoverlay-sample.pdf>]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [4
+<./pdfoverlay-sample.pdf>]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{6}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 6.
+| Specify a page between 1 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+[5
+<./pdfoverlay-sample.pdf>]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [6
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [7
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [8
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [9
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [10
+]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{0}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 0.
+| Specify a page between 1 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-too-low"
+! 
+! Requested page less than current page in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{4}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have requested to include to page 4,
+| but the current page is already at page 5.
+| Specify a page between 5 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{6}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 6.
+| Specify a page between 1 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-too-low"
+! 
+! Requested page less than current page in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{4}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have requested to include to page 4,
+| but the current page is already at page 5.
+| Specify a page between 5 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+Package luatex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
+(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
+[11
+] (pdfoverlay002.aux)

@@ -1,0 +1,566 @@
+% \iffalse meta-comment
+%
+% Copyright (c) 2018 David Purton <dcpurton@marshwiggle.net>
+%
+% This work may be distributed and/or modified under the conditions of
+% the LaTeX Project Public License, either version 1.3c of this license
+% or (at your option) any later version. The latest version of this
+% license is in
+%    http://www.latex-project.org/lppl.txt
+% and version 1.3c or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+%<*driver>
+\documentclass[a4paper]{l3doc}
+\begin{document}
+\DocInput{\jobname.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \changes{v1.0}{2018/05/05}{First public release}
+%
+% \title{The \pkg{pdfoverlay} package}
+% \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
+% \date{2018/05/05 v1.0}
+%
+% \maketitle
+%
+% \begin{abstract}
+%   This \pkg{pdfoverlay} package provides a simple interface to overlay text
+%   on to an existing PDF. The text to be overlayed is typeset and positioned
+%   normally as you would any other \LaTeX{} document. Some or all of the pages
+%   of the PDF can be included and not all pages of the PDF need have overlay
+%   text. It's also possible to include text between pages of the PDF.
+% \end{abstract}
+%
+% \tableofcontents
+%
+% \begin{documentation}
+%
+% \section{Introduction}
+%
+% It's often desirable to take an exisiting PDF and easily add annotations or
+% text overlaying the PDF. This might arise if you wish to add comments to a
+% PDF, fill in a PDF form, or add text to a PDF where space has been left for
+% notes.
+%
+% This package provides a simple interface to do this without having to resort
+% to inserting one page at a time. Some or all of the pages of the PDF can be
+% included and not all pages of the PDF need have overlay text. It's also
+% possible to include text between pages of the PDF.
+%
+% Another advantage of this package is that the overlaying text can be set as
+% normal flowing from one page to another or with manual page breaks if you
+% wish. It's also possible to use any standard method to position text at
+% arbitrary places on a given page.
+%
+% \section{Acknowlegements}
+%
+% This package requires the \pkg{pdfpages} package to count the number of pages
+% in the PDF file and the \pkg{everypage} package to ensure that PDF pages are
+% inserted at every page in the document.
+%
+% \section{Bug Reports and Feature Requests}
+%
+% Bug reports and feature requests can be made at the \pkg{pdfoverlay} package
+% GitHub respoitory. See \url{https://github.com/dcpurton/pdfoverlay}.
+%
+% \section{Documentation}
+%
+% \subsection{Basic Usage}
+%
+% At it's simplest, the only thing required is to specify the PDF to overlay
+% with text and then begin typing your document. The pages of the PDF will be
+% inserted as you go automatically. If your text takes up more pages than the
+% PDF then any remaining text is inserted on blank pages.
+% \begin{verbatim}
+%   \documentclass{article}
+%   \usepackage{pdfoverlay}
+%   \pdfoverlaySetPDF{filename.pdf}
+%   \begin{document}
+%   ...
+%   \end{document}
+% \end{verbatim}
+% The PDF will be scaled to fit the document page size while keeping a fixed
+% aspect ratio.
+%
+% \subsection{Main Interface}
+%
+% \begin{function}{\pdfoverlaySetPDF, \pdfoverlay_set_pdf:n}
+%   \begin{syntax}
+%     \cs{pdfoverlaySetPDF} \Arg{PDF filename}
+%   \end{syntax}
+%   Specify the \Arg{PDF filename} to overlay text on to. This function must be
+%   called first. It can be used either in the preamble or at any point in the
+%   document body. It is possible to call this more than once to include
+%   multiple PDF files. If the specified \Arg{PDF filename} cannot be found an
+%   error is generated.
+% \end{function}
+%
+% \begin{function}{\pdfoverlayIncludeToPage, \pdfoverlay_include_to_page:n}
+%   \begin{syntax}
+%     \cs{pdfoverlayIncludeToPage} \Arg{page number}
+%   \end{syntax}
+%   Output all pages in the PDF file up until the specified \meta{page number}.
+%   If the specified \meta{page number} does not evaluate to an integer or does
+%   not exist in the PDF an error is generated.
+% \end{function}
+%
+% \begin{function}{\pdfoverlayIncludeToLastPage, \pdfoverlay_include_to_last_page:}
+%   \begin{syntax}
+%     \cs{pdfoverlayIncludeToLastPage}
+%   \end{syntax}
+%   Output all remaining pages in the PDF file.
+% \end{function}
+%
+% \begin{function}{\pdfoverlaySkipToPage, \pdfoverlay_skip_to_page:n}
+%   \begin{syntax}
+%     \cs{pdfoverlaySkipToPage} \Arg{page number}
+%   \end{syntax}
+%   Skip ahead to the specified \meta{page number} in the PDF file without
+%   outputting intervening pages. If the specified \meta{page number} does not
+%   evaluate to an integer or does not exist in the PDF an error is generated.
+% \end{function}
+%
+% \begin{function}{\pdfoverlayPauseOutput, \pdfoverlay_pause_output:}
+%   \begin{syntax}
+%     \cs{pdfoverlayPauseOutput}
+%   \end{syntax}
+%   Pause outputting pages from the PDF file. Any subsequent text will by
+%   output on blank pages.
+% \end{function}
+%
+% \begin{function}{\pdfoverlayResumeOutput, \pdfoverlay_resume_output:}
+%   \begin{syntax}
+%     \cs{pdfoverlayResumeOutput}
+%   \end{syntax}
+%   Resume outputting pages from the PDF file.
+% \end{function}
+%
+% \end{documentation}
+%
+% \begin{implementation}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*package>
+%<@@=pdfoverlay>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\RequirePackage{xparse}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\ProvidesExplPackage{pdfoverlay}{2018/05/05}{1.0}
+  {Overlay text on an existing PDF document (DCP)}
+%    \end{macrocode}
+%
+% \noindent The \pkg{everypage} and \pkg{pdfpages} packages are required.
+%
+%    \begin{macrocode}
+\RequirePackage{everypage,pdfpages}
+%    \end{macrocode}
+%
+% \noindent Call \cs{_@@_output_pdf_page:} on every page using the
+% \pkg{everypage} package.
+%    \begin{macrocode}
+\AddEverypageHook { \_@@_output_pdf_page: }
+%    \end{macrocode}
+%
+% \noindent Add \cs{null} to the end of the document if an action is pending.
+% This is required to ensure that the last requested page from the PDF file is
+% output even if there isn't any other content on the page.
+%    \begin{macrocode}
+\AtEndDocument {
+  \bool_if:NT \g_@@_action_pending_bool
+    {
+      \null
+    }
+}
+%    \end{macrocode}
+%
+% \subsection{Messages}
+%
+% Error message when specified PDF file cannot be found. \\
+% |#|1: PDF file name
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { file-not-found }
+  { PDF~file~'#1'~not~found. }
+  { Unable~to~find~the~file~'#1'. \\
+    Check~that~the~file~exists~and~you~have~spelt~it~correctly. }
+%    \end{macrocode}
+%
+% \noindent Error message when no PDF file has been set.
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { file-not-set }
+  { PDF~file~not~set. }
+  { You~have~not~specified~a~PDF~file. \\
+    Set~a~PDF~file~using~\pdfoverlaySetPDF. }
+%    \end{macrocode}
+%
+% \noindent Error message when the requested page cannot be found in the PDF
+% file. \\
+% |#1|: PDF file name \\
+% |#2|: Requested page number \\
+% |#3|: Total number of pages in PDF
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { page-not-found }
+  { Page~not~found~in~PDF. }
+  { PDF~file~'#1'~does~not~contain~page~#2. \\
+    Specify~a~page~between~1~and~#3. }
+%    \end{macrocode}
+%
+% \noindent Error message when the requested page number to include to is less
+% than the current page number being output from the PDF file. \\
+% |#1|: Requested page number \\
+% |#2|: Current page in PDF \\
+% |#3|: Total number of pages in PDF
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { page-too-low }
+  { Requested~page~less~than~current~page~in~PDF. }
+  { You~have~requested~to~include~to~page~#1, \\
+    but~the~current~page~is~already~at~page~#2. \\
+    Specify~a~page~between~#2~and~#3. }
+%    \end{macrocode}
+%
+% \subsection{Private Variables and Helper Functions}
+%
+% \begin{macro}{\g_@@_pdf_file_name_str}
+%   Store the PDF file name.
+%    \begin{macrocode}
+\str_new:N \g_@@_pdf_file_name_str
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\g_@@_page_count_int}
+%   Store the total number of pages in the PDF file.
+%    \begin{macrocode}
+\int_new:N \g_@@_page_count_int
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\g_@@_page_int}
+%   Keep track of the current page in the PDF file.
+%    \begin{macrocode}
+\int_new:N \g_@@_page_int
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\g_@@_output_active_bool}
+%   Flag to store whether to output pages from the PDF file or not.
+%    \begin{macrocode}
+\bool_new:N \g_@@_output_active_bool
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\g_@@_action_pending_bool}
+%   Flag to store whether and action (\cs{pdfoverlay_include_to_page:n} or
+%   \cs{pdfoverlay_set_page:n}) is pending. If an action is pending, these
+%   functions will start a new page.
+%    \begin{macrocode}
+\bool_new:N \g_@@_action_pending_bool
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\_@@_output_pdf_page:}
+%   Main function to output the current page of the PDF file. This is called
+%   before every page is shipped using the \pkg{everypage} package.
+%    \begin{macrocode}
+\cs_new:Nn \_@@_output_pdf_page:
+  {
+%    \end{macrocode}
+%   Check if we are currently outputting pages, a PDF file has been set, and
+%   the requested page exists in the PDF file.
+%    \begin{macrocode}
+    \bool_lazy_all:nT
+      {
+        { \bool_if_p:N \g_@@_output_active_bool }
+        { \bool_not_p:n
+            { \str_if_empty_p:N \g_@@_pdf_file_name_str } }
+        { \int_compare_p:n
+            { \c_zero <= \g_@@_page_int
+              < \g_@@_page_count_int } }
+      }
+      {
+%    \end{macrocode}
+%   Centre the requested page from the PDF file in the background of the
+%   document page. The PDF page is scaled to fit while keeping its original
+%   aspect ratio.
+%    \begin{macrocode}
+        \AddToShipoutPictureBG*
+          {
+            \AtPageCenter
+              {
+                \makebox (0, 0)
+                  {
+                    \includegraphics
+                      [
+                        page   = \int_use:N \g_@@_page_int,
+                        width  = \paperwidth,
+                        height = \paperheight,
+                        keepaspectratio,
+                        quiet  = true
+                      ]
+                      { \g_@@_pdf_file_name_str }
+                  }
+              }
+          }
+%    \end{macrocode}
+%   Increment the current page counter.
+%    \begin{macrocode}
+        \int_gincr:N \g_@@_page_int
+%    \end{macrocode}
+%   Set action pending flag to false.
+%    \begin{macrocode}
+        \bool_gset_false:N \g_@@_action_pending_bool
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[pTF]{\_@@_check_page:n}
+%   Check if a PDF file has been set and the requested page is valid. If not,
+%   generate suitable error messages.
+%    \begin{macrocode}
+\prg_new_conditional:Npnn \_@@_if_page_exists:n #1 { p, T, F, TF }
+  {
+    \str_if_empty:NTF \g_@@_pdf_file_name_str
+      {
+        \msg_error:nn { pdfoverlay } { file-not-set }
+        \prg_return_false:
+      }
+      {
+        \int_compare:nTF
+          {
+            \c_one <= #1 <= \g_@@_page_count_int
+          }
+          {
+            \prg_return_true:
+          }
+          {
+            \msg_error:nnxxx { pdfoverlay } { page-not-found }
+              { \str_use:N \g_@@_pdf_file_name_str }
+              { \int_eval:n { #1 } }
+              { \int_use:N \g_@@_page_count_int }
+            \prg_return_false:
+          }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+%
+% \subsection{Public Expl3 Functions}
+%
+% \begin{macro}{\pdfoverlay_set_pdf:n}
+%   Specify a PDF file to overlay text on to.
+%    \begin{macrocode}
+\cs_new:Npn \pdfoverlay_set_pdf:n #1
+  {
+%    \end{macrocode}
+%   Test if the file exists and generate a suitable error if it doesn't.
+%    \begin{macrocode}
+    \file_if_exist:nTF { #1 }
+      {
+        \str_gset:Nn \g_@@_pdf_file_name_str { #1 }
+%    \end{macrocode}
+%   Use the \pkg{pdfpages} package to find the number of pages in the PDF file.
+%    \begin{macrocode}
+        \edef \AM@currentdocname { #1 }
+        \AM@getpagecount
+%    \end{macrocode}
+%   Initialise variables.
+%    \begin{macrocode}
+        \int_gset_eq:NN \g_@@_page_count_int \AM@pagecount
+        \int_gset_eq:NN \g_@@_page_int \c_zero
+        \bool_gset_true:N \g_@@_output_active_bool
+        \bool_gset_false:N \g_@@_action_pending_bool
+      }
+      {
+        \msg_error:nnn { pdfoverlay } { file-not-found } { #1 }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlay_include_to_page:n}
+%   Output all pages in the PDF file up until the specified page. Since the
+%   actual PDF page is inserted by \cs{__pdfoverlay_output_pdf_page:} using the
+%   \pkg{everypage} package before the page is shipped, we just insert the
+%   required number of blank pages into the document.
+%    \begin{macrocode}
+\cs_new:Npn \pdfoverlay_include_to_page:n #1
+  {
+%    \end{macrocode}
+%   Check if a PDF file is set and the requested page exists.
+%    \begin{macrocode}
+    \_@@_if_page_exists:nT { #1 }
+      {
+%    \end{macrocode}
+%   Check if the requested page is greater than the current page.
+%    \begin{macrocode}
+        \int_compare:nTF
+          {
+              #1 >= \g_@@_page_int + 1
+          }
+          {
+%    \end{macrocode}
+%   Check if an action is pending and start a new page if so.
+%    \begin{macrocode}
+            \bool_lazy_all:nT
+              {
+                { \bool_if_p:n { \g_@@_action_pending_bool } }
+                { \int_compare_p:n { \g_@@_page_int <
+                                     \g_@@_page_count_int - 1 } }
+                { \int_compare_p:n { #1 != \g_@@_page_int + 1 } }
+              }
+              {
+                \null
+                \clearpage
+              }
+              \int_while_do:nNnn { \g_@@_page_int } < { #1 - 1 }
+                {
+                  \null
+                  \clearpage
+                }
+              \bool_gset_true:N \g_@@_action_pending_bool
+          }
+          {
+            \msg_error:nnxxx { pdfoverlay } { page-too-low }
+              { \int_eval:n { #1 } }
+              { \int_eval:n { \g_@@_page_int + 1 } }
+              { \int_use:N \g_@@_page_count_int }
+          }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlay_include_to_last_page:}
+%   Output all remaining pages in the PDF file.
+%    \begin{macrocode}
+\cs_new:Nn \pdfoverlay_include_to_last_page:
+  {
+      \pdfoverlay_include_to_page:n { \g_@@_page_count_int }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlay_skip_to_page:n}
+%   Skip ahead to the specified page number in the PDF file without outputting
+%   intervening pages.
+%    \begin{macrocode}
+\cs_new:Npn \pdfoverlay_skip_to_page:n #1
+  { 
+    \_@@_if_page_exists:nT { #1 }
+      {
+%    \end{macrocode}
+%   Check if an action is pending and start a new page if so.
+%    \begin{macrocode}
+        \bool_if:nT { \g_@@_action_pending_bool }
+          {
+            \null
+            \clearpage
+          }
+        \int_gset:Nn \g_@@_page_int { #1 - 1 }
+        \bool_gset_true:N \g_@@_action_pending_bool
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlay_pause_output:}
+%   Pause outputting pages from the PDF file.
+%    \begin{macrocode}
+\cs_new:Nn \pdfoverlay_pause_output:
+  {
+    \bool_gset_false:N \g_@@_output_active_bool
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlay_resume_output:}
+%   Resume outputting pages from the PDF file.
+%    \begin{macrocode}
+\cs_new:Nn \pdfoverlay_resume_output:
+  {
+    \bool_gset_true:N \g_@@_output_active_bool
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \subsection{Public \LaTeX{} Interface}
+%
+% \begin{macro}{\pdfoverlaySetPDF}
+%   Specify a PDF file to overlay text on to.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlaySetPDF { m }
+  {
+    \pdfoverlay_set_pdf:n { #1 }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlayIncludeToPage}
+%   Output all pages in the PDF file up until the specified page.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlayIncludeToPage { m }
+  {
+    \pdfoverlay_include_to_page:n { #1 }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlayIncludeToLastPage}
+%   Output all remaining pages in the PDF file.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlayIncludeToLastPage { }
+  {
+    \pdfoverlay_include_to_last_page:
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlaySkipToPage}
+%   Skip ahead to the specified page number in the PDF file without outputting
+%   intervening pages.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlaySkipToPage { m }
+  {
+    \pdfoverlay_skip_to_page:n { #1 }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlayPauseOutput}
+%   Pause outputting pages from the PDF file.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlayPauseOutput { }
+  {
+    \pdfoverlay_pause_output:
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlayResumeOutput}
+%   Resume outputting pages from the PDF file.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlayResumeOutput { }
+  {
+    \pdfoverlay_resume_output:
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+%    \begin{macrocode}
+%</package>
+%    \end{macrocode}
+%
+% \end{implementation}
+%
+% \PrintChanges
+%
+% \PrintIndex

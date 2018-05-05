@@ -1,0 +1,31 @@
+\documentclass[a4paper]{article}
+\input{regression-test}
+\usepackage{pdfoverlay}
+\pdfoverlaySetPDF{pdfoverlay-sample.pdf}
+\pagestyle{empty}
+\begin{document}
+\START
+\showoutput
+Overlayed text on page 1.
+\clearpage
+Overlayed text on page 2.
+\clearpage
+\pdfoverlayPauseOutput
+Text between pages 2 and 3.
+\clearpage
+\pdfoverlayResumeOutput
+\pdfoverlayIncludeToPage{5}
+Overlayed text on page 5.
+\clearpage
+\pdfoverlaySkipToPage{3}
+Overlayed text on page 3.
+\pdfoverlayIncludeToLastPage
+Overlayed text on page 5.
+\clearpage
+Text after last page.
+\clearpage
+\pdfoverlaySkipToPage{1}
+\pdfoverlaySkipToPage{5}
+\pdfoverlayIncludeToPage{5}
+\pdfoverlayIncludeToLastPage
+\end{document}

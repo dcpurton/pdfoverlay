@@ -1,0 +1,188 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+\g__file_internal_ior=\read...
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-found"
+! 
+! PDF file 'not-found.pdf' not found.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySetPDF{not-found.pdf}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| Unable to find the file 'not-found.pdf'.
+| Check that the file exists and you have spelt it correctly.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{1}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{1}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "file-not-set"
+! 
+! PDF file not set.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToLastPage
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have not specified a PDF file.
+| Set a PDF file using \pdfoverlaySetPDF .
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{0}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 0.
+| Specify a page between 1 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+[1
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [2
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [3
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [4
+]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlaySkipToPage{6}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 6.
+| Specify a page between 1 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+[5
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [6
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [7
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [8
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [9
+]
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+ [10
+]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{0}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 0.
+| Specify a page between 1 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-too-low"
+! 
+! Requested page less than current page in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{4}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have requested to include to page 4,
+| but the current page is already at page 5.
+| Specify a page between 5 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-not-found"
+! 
+! Page not found in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{6}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| PDF file 'pdfoverlay-sample.pdf' does not contain page 6.
+| Specify a page between 1 and 5.
+|...............................................
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! pdfoverlay error: "page-too-low"
+! 
+! Requested page less than current page in PDF.
+! 
+! See the pdfoverlay documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+l. ...\pdfoverlayIncludeToPage{4}
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| You have requested to include to page 4,
+| but the current page is already at page 5.
+| Specify a page between 5 and 5.
+|...............................................
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+[11
+] (pdfoverlay002.aux)
