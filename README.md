@@ -9,7 +9,7 @@ possible to include text between pages of the PDF.
 ## Installation from TeXLive or MiKTeX
 
 `pdfoverlay` is in TeXLive and MiKTeX and can be installed in the usual way
-through your distribution. e.g., in TeXLive by running
+through your distribution. e.g., in TeXLive by running:
 
 ```
 tlmgr install pdfoverlay
@@ -20,13 +20,13 @@ tlmgr install pdfoverlay
 Download and unpack `pdfoverlay.zip` from CTAN at
 https://ctan.org/pkg/pdfoverlay
 
-Change to the `pdfoverlay` directory, then run
+Change to the `pdfoverlay` directory, then run:
 
 ```
 tex pdfoverlay.ins
 ```
 
-to generate `pdfoverlay.sty` and then
+to generate `pdfoverlay.sty` and then run:
 
 ```
 pdflatex pdfoverlay.dtx
