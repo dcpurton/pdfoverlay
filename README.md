@@ -3,7 +3,7 @@
 The `pdfoverlay` package provides a simple interface to overlay text on to an
 existing PDF. The text to be overlayed is typeset and positioned normally as
 you would any other LaTeX document. Some or all of the pages of the PDF can be
-included and not all pages of the PDF need have overlay text. It’s also
+included and not all pages of the PDF need have overlayed text. It’s also
 possible to include text between pages of the PDF.
 
 ## Installation from TeXLive or MiKTeX
