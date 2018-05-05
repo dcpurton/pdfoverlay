@@ -9,9 +9,40 @@ possible to include text between pages of the PDF.
 ## Installation from TeXLive or MiKTeX
 
 `pdfoverlay` is in TeXLive and MiKTeX and can be installed in the usual way
-through your distribution.
+through your distribution. e.g., in TeXLive by running
 
-## Installation from CTAN or Git Source
+```
+tlmgr install pdfoverlay
+```
+
+## Installation from CTAN
+
+Download and unpack `pdfoverlay.zip` from CTAN at
+https://ctan.org/pkg/pdfoverlay
+
+Change to the `pdfoverlay` directory, then run
+
+```
+tex pdfoverlay.ins
+```
+
+to generate `pdfoverlay.sty` and then
+
+```
+pdflatex pdfoverlay.dtx
+```
+
+to generate the documentation (`pdfoverlay.pdf`).
+
+Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and `pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`
+
+You can find `$TEXMFHOME` by running:
+
+```
+kpsewhich -var-value=TEXMFHOME
+```
+
+## Installation from Git Source
 
 `pdfoverlay` uses the `l3build` system.
 
@@ -20,9 +51,6 @@ Clone the git repository using:
 ```
 git clone https://github.com/dcpurton/pdfoverlay.git
 ```
-
-Or download and unpack `pdfoverlay.zip` from CTAN at
-https://ctan.org/pkg/pdfoverlay
 
 Change to the `pdfoverlay` directory, then run the following commands to
 generate the style file (`pdfoverlay.sty`), documentation (`pdfoverlay.pdf`),
@@ -51,5 +79,5 @@ This work is "maintained" (as per the LPPL maintenance status)
 by David Purton.
 
 This work consists of the files pdfoverlay.ins, pdfoverlay.dtx, README.md,
-build.lua, and the derived files pdfoverlay.sty and pdfoverlay.pdf
+and the derived files pdfoverlay.sty and pdfoverlay.pdf
 ```
