@@ -34,7 +34,7 @@ pdflatex pdfoverlay.dtx
 
 to generate the documentation (`pdfoverlay.pdf`).
 
-Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and `pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`
+Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and `pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`.
 
 You can find `$TEXMFHOME` by running:
 
@@ -52,14 +52,26 @@ Clone the git repository using:
 git clone https://github.com/dcpurton/pdfoverlay.git
 ```
 
-Change to the `pdfoverlay` directory, then run the following commands to
-generate the style file (`pdfoverlay.sty`), documentation (`pdfoverlay.pdf`),
-and install the style file in your local texmf tree.
+Change to the `pdfoverlay` directory, and then the style file
+(`pdfoverlay.sty`) can be installed by running:
 
 ```
-l3build unpack
-l3build doc
 l3build install
+```
+
+Documentation (`pdfoverlay.pdf`) can be compiled by running:
+
+```
+l3build doc
+```
+
+To install the documentation, copy `pdfoverlay.pdf` to
+`$TEXMFHOME/doc/latex/pdfoverlay/`.
+
+You can find `$TEXMFHOME` by running:
+
+```
+kpsewhich -var-value=TEXMFHOME
 ```
 
 ## Licence
