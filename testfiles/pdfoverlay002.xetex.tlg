@@ -77,15 +77,19 @@ l. ...\pdfoverlaySkipToPage{0}
 | Specify a page between 1 and 5.
 |...............................................
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
 [1
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 2>
  [2
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
  [3
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
  [4
 ]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -104,21 +108,27 @@ l. ...\pdfoverlaySkipToPage{6}
 | Specify a page between 1 and 5.
 |...............................................
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 [5
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
  [6
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
  [7
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 2>
  [8
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
  [9
 ]
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
  [10
 ]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -184,5 +194,6 @@ l. ...\pdfoverlayIncludeToPage{4}
 | Specify a page between 5 and 5.
 |...............................................
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 [11
 ] (pdfoverlay002.aux)

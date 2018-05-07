@@ -18,11 +18,11 @@
 %</driver>
 % \fi
 %
-% \changes{v1.0}{2018/05/05}{First public release}
+% \changes{v1.0}{2018/05/07}{First public release}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
-% \date{2018/05/05 v1.0}
+% \date{2018/05/07 v1.0}
 %
 % \maketitle
 %
@@ -57,9 +57,10 @@
 %
 % \section{Acknowlegements}
 %
-% This package requires the \pkg{pdfpages} package to count the number of pages
-% in the PDF file and the \pkg{everypage} package to ensure that PDF pages are
-% inserted at every page in the document.
+% This package is particularly indebted to the \pkg{pdfpages} package to count
+% the number of pages in the PDF file, the \pkg{eso-pic} package to output
+% pages from the PDF file in the document background, and the \pkg{everypage}
+% package to ensure that PDF pages are inserted at every page in the document.
 %
 % \section{Bug Reports and Feature Requests}
 %
@@ -91,11 +92,24 @@
 %   \begin{syntax}
 %     \cs{pdfoverlaySetPDF} \Arg{PDF filename}
 %   \end{syntax}
-%   Specify the \Arg{PDF filename} to overlay text on to. This function must be
-%   called first. It can be used either in the preamble or at any point in the
-%   document body. It is possible to call this more than once to include
-%   multiple PDF files. If the specified \Arg{PDF filename} cannot be found an
+%   Specify the \meta{PDF filename} to overlay text on to. This function must
+%   be called first. It can be used either in the preamble or at any point in
+%   the document body. It is possible to call this more than once to include
+%   multiple PDF files. If the specified \meta{PDF filename} cannot be found an
 %   error is generated.
+% \end{function}
+%
+% \begin{function}{\pdfoverlaySetGraphicsOptions,
+%                  \pdfoverlay_set_graphics_options:n}
+%   \begin{syntax}
+%     \cs{pdfoverlaySetGraphicsOptions} \Arg{Options}
+%   \end{syntax}
+%   Set the \meta{Options} to be passed to \cs{includegraphics} when each page
+%   the PDF is output. See the \pkg{graphicx} package documentation for valid
+%   options. \textbf{Note} that it is not necessary to specify the \meta{page}
+%   option as this is appended automatically in the right format. The default
+%   options are \texttt{keepaspectratio, width=}\cs{paperwidth}\texttt{,
+%   height=}\cs{paperheight}.
 % \end{function}
 %
 % \begin{function}{\pdfoverlayIncludeToPage, \pdfoverlay_include_to_page:n}
@@ -154,7 +168,7 @@
 %    \end{macrocode}
 %
 %    \begin{macrocode}
-\ProvidesExplPackage{pdfoverlay}{2018/05/05}{1.0}
+\ProvidesExplPackage{pdfoverlay}{2018/05/07}{1.0}
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
@@ -164,10 +178,10 @@
 \RequirePackage{everypage,pdfpages}
 %    \end{macrocode}
 %
-% \noindent Call \cs{_@@_output_pdf_page:} on every page using the
+% \noindent Call \cs{@@_output_pdf_page:} on every page using the
 % \pkg{everypage} package.
 %    \begin{macrocode}
-\AddEverypageHook { \_@@_output_pdf_page: }
+\AddEverypageHook { \@@_output_pdf_page: }
 %    \end{macrocode}
 %
 % \noindent Add \cs{null} to the end of the document if an action is pending.
@@ -265,11 +279,27 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\_@@_output_pdf_page:}
+% \begin{macro}{\g_@@_graphics_options_clist}
+%   Hold the options passed to \cs{includegraphics} when including a page from
+%   the PDF. The default options scale the PDF page to fit the document page
+%   while keeping the original PDF page aspect ratio.
+%   \begin{macrocode}
+\clist_new:N \g_@@_graphics_options_clist
+\clist_set:Nn \g_@@_graphics_options_clist
+  {
+    keepaspectratio ,
+    width  = \paperwidth ,
+    height = \paperheight ,
+    page = \int_use:N \g_@@_page_int
+  }
+%   \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_output_pdf_page:}
 %   Main function to output the current page of the PDF file. This is called
 %   before every page is shipped using the \pkg{everypage} package.
 %    \begin{macrocode}
-\cs_new:Nn \_@@_output_pdf_page:
+\cs_new:Nn \@@_output_pdf_page:
   {
 %    \end{macrocode}
 %   Check if we are currently outputting pages, a PDF file has been set, and
@@ -286,27 +316,12 @@
       }
       {
 %    \end{macrocode}
-%   Centre the requested page from the PDF file in the background of the
-%   document page. The PDF page is scaled to fit while keeping its original
-%   aspect ratio.
+%   Place requested page from the PDF file in the background of the
+%   document page with the specified format.
 %    \begin{macrocode}
         \AddToShipoutPictureBG*
           {
-            \AtPageCenter
-              {
-                \makebox (0, 0)
-                  {
-                    \includegraphics
-                      [
-                        page   = \int_use:N \g_@@_page_int,
-                        width  = \paperwidth,
-                        height = \paperheight,
-                        keepaspectratio,
-                        quiet  = true
-                      ]
-                      { \g_@@_pdf_file_name_str }
-                  }
-              }
+            \@@_format_pdf_page:
           }
 %    \end{macrocode}
 %   Increment the current page counter.
@@ -321,11 +336,32 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}[pTF]{\_@@_check_page:n}
+% \begin{macro}{\@@_format_pdf_page:}
+%   Format the PDF page in the centre of the document page.
+%    \begin{macrocode}
+\cs_new:Nn \@@_format_pdf_page:
+  {
+    \AtPageCenter
+      {
+        \makebox (0, 0)
+          {
+            \use:x
+              {
+                \exp_not:N \includegraphics
+                  [ \clist_use:Nn \g_@@_graphics_options_clist { , } ]
+                  { \g_@@_pdf_file_name_str }
+              }
+          }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[pTF]{\@@_check_page:n}
 %   Check if a PDF file has been set and the requested page is valid. If not,
 %   generate suitable error messages.
 %    \begin{macrocode}
-\prg_new_conditional:Npnn \_@@_if_page_exists:n #1 { p, T, F, TF }
+\prg_new_conditional:Npnn \@@_if_page_exists:n #1 { p, T, F, TF }
   {
     \str_if_empty:NTF \g_@@_pdf_file_name_str
       {
@@ -386,6 +422,23 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\pdfoverlay_set_graphics_options:n}
+% Set the options as a comma separated list to be passed to
+% \cs{includegraphics} when outputting each page from the PDF file. The
+% \meta{page} option is appended automatically in the
+% correct format.
+%    \begin{macrocode}
+\cs_new:Nn \pdfoverlay_set_graphics_options:n
+  {
+    \clist_gset:Nn \g_@@_graphics_options_clist { #1 }
+    \clist_gput_right:Nn \g_@@_graphics_options_clist
+      {
+        page = \int_use:N \g_@@_page_int
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\pdfoverlay_include_to_page:n}
 %   Output all pages in the PDF file up until the specified page. Since the
 %   actual PDF page is inserted by \cs{__pdfoverlay_output_pdf_page:} using the
@@ -397,7 +450,7 @@
 %    \end{macrocode}
 %   Check if a PDF file is set and the requested page exists.
 %    \begin{macrocode}
-    \_@@_if_page_exists:nT { #1 }
+    \@@_if_page_exists:nT { #1 }
       {
 %    \end{macrocode}
 %   Check if the requested page is greater than the current page.
@@ -455,7 +508,7 @@
 %    \begin{macrocode}
 \cs_new:Npn \pdfoverlay_skip_to_page:n #1
   { 
-    \_@@_if_page_exists:nT { #1 }
+    \@@_if_page_exists:nT { #1 }
       {
 %    \end{macrocode}
 %   Check if an action is pending and start a new page if so.
@@ -500,6 +553,18 @@
 \NewDocumentCommand \pdfoverlaySetPDF { m }
   {
     \pdfoverlay_set_pdf:n { #1 }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\pdfoverlaySetGraphicsOptions}
+%   Set the options as a comma separated list to be passed to
+%   \cs{includegraphics} when outputting each page from the PDF file. The
+%   \meta{page} option is appended automatically in the right format.
+%    \begin{macrocode}
+\NewDocumentCommand \pdfoverlaySetGraphicsOptions { m }
+  {
+    \pdfoverlay_set_graphics_options:n { #1 }
   }
 %    \end{macrocode}
 % \end{macro}

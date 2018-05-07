@@ -1,6 +1,8 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
+<pdfoverlay-sample.pdf, id=3, page=1, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [1]
@@ -126,7 +128,9 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
+<pdfoverlay-sample.pdf, id=16, page=2, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 2>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [2]
@@ -352,7 +356,9 @@ Completed box being shipped out [3]
 ....\glue(\rightskip) 0.0
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+<pdfoverlay-sample.pdf, id=23, page=3, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [4]
@@ -444,7 +450,9 @@ Completed box being shipped out [4]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
+<pdfoverlay-sample.pdf, id=27, page=4, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [5]
@@ -536,7 +544,9 @@ Completed box being shipped out [5]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
+<pdfoverlay-sample.pdf, id=31, page=5, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [6]
@@ -662,6 +672,7 @@ Completed box being shipped out [6]
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [7]
@@ -788,6 +799,7 @@ Completed box being shipped out [7]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [8]
@@ -879,6 +891,7 @@ Completed box being shipped out [8]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 Completed box being shipped out [9]
@@ -1095,8 +1108,9 @@ Completed box being shipped out [10]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+(pdftex.def)             Requested size: 344.996pt x 345.0016pt.
 Completed box being shipped out [11]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -1116,19 +1130,22 @@ Completed box being shipped out [11]
 .........\kern 0.0
 .........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
 ..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
+..........\vbox(0.0+0.0)x0.0, glue set - 172.50081fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...........\hbox(345.0016+0.0)x0.0, glue set - 172.498fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
+............\hbox(345.0016+0.0)x344.996
+.............\hbox(345.00244+0.0)x344.99684
+..............\hbox(345.00244+0.0)x344.99684
+...............\hbox(345.00244+0.0)x0.0
+................\pdfsave
+................\pdfsetmatrix{.5774 0 0 .40826}
 ................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
 .................\hbox(845.0471+0.0)x597.50829
 ..................\pdfrefximage(845.0471+0.0)x597.50829
 .................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
+................\pdfrestore
+...............\kern 344.99684
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
@@ -1186,8 +1203,9 @@ Completed box being shipped out [11]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+(pdftex.def)             Requested size: 344.996pt x 345.0016pt.
 Completed box being shipped out [12]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -1207,19 +1225,22 @@ Completed box being shipped out [12]
 .........\kern 0.0
 .........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
 ..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
+..........\vbox(0.0+0.0)x0.0, glue set - 172.50081fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...........\hbox(345.0016+0.0)x0.0, glue set - 172.498fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
+............\hbox(345.0016+0.0)x344.996
+.............\hbox(345.00244+0.0)x344.99684
+..............\hbox(345.00244+0.0)x344.99684
+...............\hbox(345.00244+0.0)x0.0
+................\pdfsave
+................\pdfsetmatrix{.5774 0 0 .40826}
 ................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
 .................\hbox(845.0471+0.0)x597.50829
 ..................\pdfrefximage(845.0471+0.0)x597.50829
 .................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
+................\pdfrestore
+...............\kern 344.99684
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil

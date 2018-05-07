@@ -1,6 +1,7 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
 Completed box being shipped out [1]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -108,6 +109,7 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 2>
 Completed box being shipped out [2]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -295,6 +297,7 @@ Completed box being shipped out [3]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
 Completed box being shipped out [4]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -387,6 +390,7 @@ Completed box being shipped out [4]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
 Completed box being shipped out [5]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -479,6 +483,7 @@ Completed box being shipped out [5]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Completed box being shipped out [6]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -585,6 +590,7 @@ Completed box being shipped out [6]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 3>
 Completed box being shipped out [7]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -693,6 +699,7 @@ Completed box being shipped out [7]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 4>
 Completed box being shipped out [8]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -785,6 +792,7 @@ Completed box being shipped out [8]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Completed box being shipped out [9]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -968,6 +976,7 @@ Completed box being shipped out [10]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 1>
 Completed box being shipped out [11]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -987,22 +996,22 @@ Completed box being shipped out [11]
 .........\kern 0.0
 .........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
 ..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+..........\vbox(0.0+0.0)x0.0, glue set - 172.5008fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+...........\hbox(345.00157+0.0)x0.0, glue set - 172.498fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.045+0.0)x597.50684
-.............\hbox(845.04706+0.0)x597.5083
-..............\hbox(845.04706+0.0)x597.5083
-...............\hbox(845.04706+0.0)x0.0
+............\hbox(345.00157+0.0)x344.996
+.............\hbox(345.00243+0.0)x344.99686
+..............\hbox(345.00243+0.0)x344.99686
+...............\hbox(345.00243+0.0)x0.0
 ................\special{pdf:btrans}
-................\special{x:scale 1 1}
+................\special{x:scale 0.5774 0.40826}
 ................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
 .................\hbox(845.04706+0.0)x597.5083
 ..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
 .................\glue 0.0 plus 1.0fil minus 1.0fil
 ................\special{pdf:etrans}
-...............\kern 597.5083
+...............\kern 344.99686
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
@@ -1060,6 +1069,7 @@ Completed box being shipped out [11]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
 Completed box being shipped out [12]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
@@ -1079,22 +1089,22 @@ Completed box being shipped out [12]
 .........\kern 0.0
 .........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
 ..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.5225fil
+..........\vbox(0.0+0.0)x0.0, glue set - 172.5008fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.045+0.0)x0.0, glue set - 298.75342fil
+...........\hbox(345.00157+0.0)x0.0, glue set - 172.498fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.045+0.0)x597.50684
-.............\hbox(845.04706+0.0)x597.5083
-..............\hbox(845.04706+0.0)x597.5083
-...............\hbox(845.04706+0.0)x0.0
+............\hbox(345.00157+0.0)x344.996
+.............\hbox(345.00243+0.0)x344.99686
+..............\hbox(345.00243+0.0)x344.99686
+...............\hbox(345.00243+0.0)x0.0
 ................\special{pdf:btrans}
-................\special{x:scale 1 1}
+................\special{x:scale 0.5774 0.40826}
 ................\hbox(845.04706+0.0)x0.0, glue set - 597.5083fil
 .................\hbox(845.04706+0.0)x597.5083
 ..................\XeTeXpdffile "./pdfoverlay-sample.pdf"
 .................\glue 0.0 plus 1.0fil minus 1.0fil
 ................\special{pdf:etrans}
-...............\kern 597.5083
+...............\kern 344.99686
 ...............\glue 0.0 plus 1.0fil minus 1.0fil
 ............\glue 0.0 plus 1.0fil minus 1.0fil
 ...........\glue 0.0 plus 1.0fil minus 1.0fil

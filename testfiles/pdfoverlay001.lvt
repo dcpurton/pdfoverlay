@@ -25,6 +25,7 @@ Overlayed text on page 5.
 Text after last page.
 \clearpage
 \pdfoverlaySkipToPage{1}
+\pdfoverlaySetGraphicsOptions{width=\textwidth, height=\textwidth}
 \pdfoverlaySkipToPage{5}
 \pdfoverlayIncludeToPage{5}
 \pdfoverlayIncludeToLastPage
