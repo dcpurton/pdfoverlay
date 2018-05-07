@@ -26,13 +26,7 @@ Change to the `pdfoverlay` directory, then run:
 tex pdfoverlay.ins
 ```
 
-to generate `pdfoverlay.sty` and then run:
-
-```
-pdflatex pdfoverlay.dtx
-```
-
-to generate the documentation (`pdfoverlay.pdf`).
+to generate `pdfoverlay.sty`.
 
 Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and `pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`.
 
