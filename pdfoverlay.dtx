@@ -202,8 +202,8 @@
 % |#|1: PDF file name
 %    \begin{macrocode}
 \msg_new:nnnn { pdfoverlay } { file-not-found }
-  { PDF~file~'#1'~not~found. }
-  { Unable~to~find~the~file~'#1'. \\
+  { PDF~file~`#1'~not~found. }
+  { Unable~to~find~the~file~`#1'. \\
     Check~that~the~file~exists~and~you~have~spelt~it~correctly. }
 %    \end{macrocode}
 %
@@ -223,7 +223,7 @@
 %    \begin{macrocode}
 \msg_new:nnnn { pdfoverlay } { page-not-found }
   { Page~not~found~in~PDF. }
-  { PDF~file~'#1'~does~not~contain~page~#2. \\
+  { PDF~file~`#1'~does~not~contain~page~#2. \\
     Specify~a~page~between~1~and~#3. }
 %    \end{macrocode}
 %
