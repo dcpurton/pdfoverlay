@@ -47,10 +47,10 @@
 %
 % This package provides a simple interface to do this without having to resort
 % to inserting one page at a time. Some or all of the pages of the PDF can be
-% included and not all pages of the PDF need have overlay text. It's also
+% included and not all pages of the PDF need have overlayed text. It's also
 % possible to include text between pages of the PDF.
 %
-% Another advantage of this package is that the overlaying text can be set as
+% Another advantage of this package is that the overlayed text can be set as
 % normal flowing from one page to another or with manual page breaks if you
 % wish. It's also possible to use any standard method to position text at
 % arbitrary places on a given page.
@@ -83,8 +83,8 @@
 %   ...
 %   \end{document}
 % \end{verbatim}
-% The PDF will be scaled to fit the document page size while keeping a fixed
-% aspect ratio.
+% The PDF will be centered on and scaled to fit the document page size while
+% keeping a fixed aspect ratio.
 %
 % \subsection{Main Interface}
 %
@@ -105,11 +105,11 @@
 %     \cs{pdfoverlaySetGraphicsOptions} \Arg{Options}
 %   \end{syntax}
 %   Set the \meta{Options} to be passed to \cs{includegraphics} when each page
-%   the PDF is output. See the \pkg{graphicx} package documentation for valid
-%   options. \textbf{Note} that it is not necessary to specify the \meta{page}
-%   option as this is appended automatically in the right format. The default
-%   options are \texttt{keepaspectratio, width=}\cs{paperwidth}\texttt{,
-%   height=}\cs{paperheight}.
+%   of the PDF is output. See the \pkg{graphicx} package documentation for
+%   valid options. \textbf{Note} that it is not necessary to specify the
+%   \texttt{page} option as this is appended automatically in the right format.
+%   The default options are: \texttt{keepaspectratio,
+%   width=}\cs{paperwidth}\texttt{, height=}\cs{paperheight}.
 % \end{function}
 %
 % \begin{function}{\pdfoverlayIncludeToPage, \pdfoverlay_include_to_page:n}
@@ -132,8 +132,8 @@
 %   \begin{syntax}
 %     \cs{pdfoverlaySkipToPage} \Arg{page number}
 %   \end{syntax}
-%   Skip ahead to the specified \meta{page number} in the PDF file without
-%   outputting intervening pages. If the specified \meta{page number} does not
+%   Skip to the specified \meta{page number}. This can be before or after the
+%   current page in the PDF file. If the specified \meta{page number} does not
 %   evaluate to an integer or does not exist in the PDF an error is generated.
 % \end{function}
 %
@@ -215,8 +215,8 @@
     Set~a~PDF~file~using~\pdfoverlaySetPDF. }
 %    \end{macrocode}
 %
-% \noindent Error message when the requested page cannot be found in the PDF
-% file. \\
+% \noindent Error message when the requested page number cannot be found in the
+% PDF file. \\
 % |#1|: PDF file name \\
 % |#2|: Requested page number \\
 % |#3|: Total number of pages in PDF
@@ -230,7 +230,7 @@
 % \noindent Error message when the requested page number to include to is less
 % than the current page number being output from the PDF file. \\
 % |#1|: Requested page number \\
-% |#2|: Current page in PDF \\
+% |#2|: Current page number in PDF \\
 % |#3|: Total number of pages in PDF
 %    \begin{macrocode}
 \msg_new:nnnn { pdfoverlay } { page-too-low }
@@ -271,7 +271,7 @@
 % \end{macro}
 %
 % \begin{macro}{\g_@@_action_pending_bool}
-%   Flag to store whether and action (\cs{pdfoverlay_include_to_page:n} or
+%   Flag to store whether an action (\cs{pdfoverlay_include_to_page:n} or
 %   \cs{pdfoverlay_set_page:n}) is pending. If an action is pending, these
 %   functions will start a new page.
 %    \begin{macrocode}
@@ -283,7 +283,7 @@
 %   Hold the options passed to \cs{includegraphics} when including a page from
 %   the PDF. The default options scale the PDF page to fit the document page
 %   while keeping the original PDF page aspect ratio.
-%   \begin{macrocode}
+%    \begin{macrocode}
 \clist_new:N \g_@@_graphics_options_clist
 \clist_set:Nn \g_@@_graphics_options_clist
   {
@@ -292,7 +292,7 @@
     height = \paperheight ,
     page = \int_use:N \g_@@_page_int
   }
-%   \end{macrocode}
+%    \end{macrocode}
 % \end{macro}
 %
 % \begin{macro}{\@@_output_pdf_page:}
@@ -337,7 +337,11 @@
 % \end{macro}
 %
 % \begin{macro}{\@@_format_pdf_page:}
-%   Format the PDF page in the centre of the document page.
+%   Format the PDF page in the centre of the document page with options from
+%   \cs{g_@@_graphics_options_clist}. Although marked as private, this function
+%   could be redifined to position the PDF page at a different location on the
+%   document page. See the \pkg{eso-pic} package documentation for hints on how
+%   to position the PDF page.
 %    \begin{macrocode}
 \cs_new:Nn \@@_format_pdf_page:
   {
@@ -425,7 +429,7 @@
 % \begin{macro}{\pdfoverlay_set_graphics_options:n}
 % Set the options as a comma separated list to be passed to
 % \cs{includegraphics} when outputting each page from the PDF file. The
-% \meta{page} option is appended automatically in the
+% \texttt{page} option is appended automatically in the
 % correct format.
 %    \begin{macrocode}
 \cs_new:Nn \pdfoverlay_set_graphics_options:n
@@ -474,11 +478,18 @@
                 \null
                 \clearpage
               }
+%    \end{macrocode}
+% Loop until the specified page, inserting blank pages.
+%    \begin{macrocode}
               \int_while_do:nNnn { \g_@@_page_int } < { #1 - 1 }
                 {
                   \null
                   \clearpage
                 }
+%    \end{macrocode}
+% Set the action pending flag, so final page is output even if no text is
+% overlayed on it.
+%    \begin{macrocode}
               \bool_gset_true:N \g_@@_action_pending_bool
           }
           {
@@ -503,8 +514,7 @@
 % \end{macro}
 %
 % \begin{macro}{\pdfoverlay_skip_to_page:n}
-%   Skip ahead to the specified page number in the PDF file without outputting
-%   intervening pages.
+%   Skip to the specified page number in the PDF file.
 %    \begin{macrocode}
 \cs_new:Npn \pdfoverlay_skip_to_page:n #1
   { 
@@ -518,7 +528,14 @@
             \null
             \clearpage
           }
+%    \end{macrocode}
+% Set the page numer for the next page to be output.
+%    \begin{macrocode}
         \int_gset:Nn \g_@@_page_int { #1 - 1 }
+%    \end{macrocode}
+% Set the action pending flag, so final page is output even if no text is
+% overlayed on it.
+%    \begin{macrocode}
         \bool_gset_true:N \g_@@_action_pending_bool
       }
   }
@@ -560,7 +577,7 @@
 % \begin{macro}{\pdfoverlaySetGraphicsOptions}
 %   Set the options as a comma separated list to be passed to
 %   \cs{includegraphics} when outputting each page from the PDF file. The
-%   \meta{page} option is appended automatically in the right format.
+%   \texttt{page} option is appended automatically in the right format.
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlaySetGraphicsOptions { m }
   {
@@ -590,8 +607,7 @@
 % \end{macro}
 %
 % \begin{macro}{\pdfoverlaySkipToPage}
-%   Skip ahead to the specified page number in the PDF file without outputting
-%   intervening pages.
+%   Skip ahead to the specified page number in the PDF file.
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlaySkipToPage { m }
   {
