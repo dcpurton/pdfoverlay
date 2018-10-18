@@ -47,25 +47,11 @@ git clone https://github.com/dcpurton/pdfoverlay.git
 ```
 
 Change to the `pdfoverlay` directory, and then the style file
-(`pdfoverlay.sty`) can be installed by running:
+(`pdfoverlay.sty`) and documentation (`pdfoverlay.pdf`) can be installed by
+running:
 
 ```
-l3build install
-```
-
-Documentation (`pdfoverlay.pdf`) can be compiled by running:
-
-```
-l3build doc
-```
-
-To install the documentation, copy `pdfoverlay.pdf` to
-`$TEXMFHOME/doc/latex/pdfoverlay/`.
-
-You can find `$TEXMFHOME` by running:
-
-```
-kpsewhich -var-value=TEXMFHOME
+l3build install --full
 ```
 
 ## Licence
