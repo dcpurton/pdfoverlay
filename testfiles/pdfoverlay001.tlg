@@ -128,7 +128,7 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=16, page=2, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=15, page=2, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 2>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
@@ -356,7 +356,7 @@ Completed box being shipped out [3]
 ....\glue(\rightskip) 0.0
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
-<pdfoverlay-sample.pdf, id=23, page=3, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=22, page=3, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 3>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
@@ -450,7 +450,7 @@ Completed box being shipped out [4]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=27, page=4, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=26, page=4, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 4>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
@@ -544,7 +544,7 @@ Completed box being shipped out [5]
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=31, page=5, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=30, page=5, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....

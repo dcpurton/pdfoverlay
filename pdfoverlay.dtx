@@ -1,6 +1,6 @@
 % \iffalse meta-comment
 %
-% Copyright (c) 2018 David Purton <dcpurton@marshwiggle.net>
+% Copyright (c) 2018-2019 David Purton <dcpurton@marshwiggle.net>
 %
 % This work may be distributed and/or modified under the conditions of
 % the LaTeX Project Public License, either version 1.3c of this license
@@ -19,10 +19,11 @@
 % \fi
 %
 % \changes{v1.0}{2018/05/08}{First public release}
+% \changes{v1.1}{2019/11/03}{Fix depracated macros}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
-% \date{2018/05/08 v1.0}
+% \date{2019/11/03 v1.1}
 %
 % \maketitle
 %
@@ -168,7 +169,7 @@
 %    \end{macrocode}
 %
 %    \begin{macrocode}
-\ProvidesExplPackage{pdfoverlay}{2018/05/08}{1.0}
+\ProvidesExplPackage{pdfoverlay}{2019/11/03}{1.1}
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
@@ -311,7 +312,7 @@
         { \bool_not_p:n
             { \str_if_empty_p:N \g_@@_pdf_file_name_str } }
         { \int_compare_p:n
-            { \c_zero <= \g_@@_page_int
+            { \c_zero_int <= \g_@@_page_int
               < \g_@@_page_count_int } }
       }
       {
@@ -375,7 +376,7 @@
       {
         \int_compare:nTF
           {
-            \c_one <= #1 <= \g_@@_page_count_int
+            \c_one_int <= #1 <= \g_@@_page_count_int
           }
           {
             \prg_return_true:
@@ -415,7 +416,7 @@
 %   Initialise variables.
 %    \begin{macrocode}
         \int_gset_eq:NN \g_@@_page_count_int \AM@pagecount
-        \int_gset_eq:NN \g_@@_page_int \c_zero
+        \int_gset_eq:NN \g_@@_page_int \c_zero_int
         \bool_gset_true:N \g_@@_output_active_bool
         \bool_gset_false:N \g_@@_action_pending_bool
       }
