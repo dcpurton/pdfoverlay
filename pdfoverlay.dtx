@@ -19,7 +19,7 @@
 % \fi
 %
 % \changes{v1.0}{2018/05/08}{First public release}
-% \changes{v1.1}{2019/11/03}{Fix depracated macros}
+% \changes{v1.1}{2019/11/03}{Fix deprecated macros}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
@@ -29,10 +29,11 @@
 %
 % \begin{abstract}
 %   This \pkg{pdfoverlay} package provides a simple interface to overlay text
-%   on to an existing PDF. The text to be overlayed is typeset and positioned
-%   normally as you would any other \LaTeX{} document. Some or all of the pages
-%   of the PDF can be included and not all pages of the PDF need have overlayed
-%   text. It's also possible to include text between pages of the PDF.
+%   on to an existing PDF. The text to be overlaid is typeset and positioned
+%   normally as you would any other \LaTeX{} document. Some or all of the
+%   pages of the PDF can be included and not all pages of the PDF need have
+%   overlaid text. It's also possible to include text between pages of the
+%   PDF.
 % \end{abstract}
 %
 % \tableofcontents
@@ -41,22 +42,22 @@
 %
 % \section{Introduction}
 %
-% It's often desirable to take an exisiting PDF and easily add annotations or
+% It's often desirable to take an existing PDF and easily add annotations or
 % text overlaying the PDF. This might arise if you wish to add comments to a
 % PDF, fill in a PDF form, or add text to a PDF where space has been left for
 % notes.
 %
 % This package provides a simple interface to do this without having to resort
 % to inserting one page at a time. Some or all of the pages of the PDF can be
-% included and not all pages of the PDF need have overlayed text. It's also
+% included and not all pages of the PDF need have overlaid text. It's also
 % possible to include text between pages of the PDF.
 %
-% Another advantage of this package is that the overlayed text can be set as
+% Another advantage of this package is that the overlaid text can be set as
 % normal flowing from one page to another or with manual page breaks if you
 % wish. It's also possible to use any standard method to position text at
 % arbitrary places on a given page.
 %
-% \section{Acknowlegements}
+% \section{Acknowledgements}
 %
 % This package is particularly indebted to the \pkg{pdfpages} package to count
 % the number of pages in the PDF file, the \pkg{eso-pic} package to output
@@ -66,7 +67,7 @@
 % \section{Bug Reports and Feature Requests}
 %
 % Bug reports and feature requests can be made at the \pkg{pdfoverlay} package
-% GitHub respoitory. See \url{https://github.com/dcpurton/pdfoverlay}.
+% GitHub repository. See \url{https://github.com/dcpurton/pdfoverlay}.
 %
 % \section{Documentation}
 %
@@ -340,7 +341,7 @@
 % \begin{macro}{\@@_format_pdf_page:}
 %   Format the PDF page in the centre of the document page with options from
 %   \cs{g_@@_graphics_options_clist}. Although marked as private, this function
-%   could be redifined to position the PDF page at a different location on the
+%   could be redefined to position the PDF page at a different location on the
 %   document page. See the \pkg{eso-pic} package documentation for hints on how
 %   to position the PDF page.
 %    \begin{macrocode}
@@ -489,7 +490,7 @@
                 }
 %    \end{macrocode}
 % Set the action pending flag, so final page is output even if no text is
-% overlayed on it.
+% overlaid on it.
 %    \begin{macrocode}
               \bool_gset_true:N \g_@@_action_pending_bool
           }
@@ -530,12 +531,12 @@
             \clearpage
           }
 %    \end{macrocode}
-% Set the page numer for the next page to be output.
+% Set the page number for the next page to be output.
 %    \begin{macrocode}
         \int_gset:Nn \g_@@_page_int { #1 - 1 }
 %    \end{macrocode}
 % Set the action pending flag, so final page is output even if no text is
-% overlayed on it.
+% overlaid on it.
 %    \begin{macrocode}
         \bool_gset_true:N \g_@@_action_pending_bool
       }
