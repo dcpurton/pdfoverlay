@@ -1,15 +1,15 @@
 # pdfoverlay — A LaTeX style for overlaying text on a PDF
 
 The `pdfoverlay` package provides a simple interface to overlay text on to an
-existing PDF. The text to be overlayed is typeset and positioned normally as
+existing PDF. The text to be overlaid is typeset and positioned normally as
 you would any other LaTeX document. Some or all of the pages of the PDF can be
-included and not all pages of the PDF need have overlayed text. It’s also
+included and not all pages of the PDF need have overlaid text. It’s also
 possible to include text between pages of the PDF.
 
 ## Installation from TeXLive or MiKTeX
 
 `pdfoverlay` is in TeXLive and MiKTeX and can be installed in the usual way
-through your distribution. e.g., in TeXLive by running:
+through your distribution. E.g., in TeXLive by running:
 
 ```
 tlmgr install pdfoverlay
@@ -28,7 +28,8 @@ tex pdfoverlay.ins
 
 to generate `pdfoverlay.sty`.
 
-Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and `pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`.
+Copy `pdfoverlay.sty` to `$TEXMFHOME/tex/latex/pdfoverlay/` and
+`pdfoverlay.pdf` to `$TEXMFHOME/doc/latex/pdfoverlay/`.
 
 You can find `$TEXMFHOME` by running:
 
