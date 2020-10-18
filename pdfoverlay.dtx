@@ -411,7 +411,7 @@
 %    \end{macrocode}
 %   Use the \pkg{pdfpages} package to find the number of pages in the PDF file.
 %    \begin{macrocode}
-        \edef \AM@currentdocname { #1 }
+        \tl_set:Nx \AM@currentdocname { #1 }
         \AM@getpagecount
 %    \end{macrocode}
 %   Initialise variables.
