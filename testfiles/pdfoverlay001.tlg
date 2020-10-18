@@ -9,45 +9,40 @@ Completed box being shipped out [1]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -63,7 +58,7 @@ Completed box being shipped out [1]
 ...\write-{}
 ...\pdfcolorstack 0 push {0 g 0 G}
 ...\glue(\topskip) 3.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 217.19423fil
+...\hbox(6.94444+1.94444)x345.0, glue set 223.58311fil
 ....\hbox(0.0+0.0)x15.0
 ....\OT1/cmr/m/n/10 O
 ....\OT1/cmr/m/n/10 v
@@ -72,10 +67,7 @@ Completed box being shipped out [1]
 ....\OT1/cmr/m/n/10 r
 ....\OT1/cmr/m/n/10 l
 ....\OT1/cmr/m/n/10 a
-....\kern-0.27779
-....\OT1/cmr/m/n/10 y
-....\kern-0.27779
-....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 i
 ....\OT1/cmr/m/n/10 d
 ....\glue 3.33333 plus 1.66666 minus 1.11111
 ....\OT1/cmr/m/n/10 t
@@ -109,24 +101,16 @@ Completed box being shipped out [1]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
  <./pdfoverlay-sample.pdf>
 <pdfoverlay-sample.pdf, id=15, page=2, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
@@ -137,45 +121,40 @@ Completed box being shipped out [2]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -190,7 +169,7 @@ Completed box being shipped out [2]
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
 ...\write-{}
 ...\glue(\topskip) 3.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 217.19423fil
+...\hbox(6.94444+1.94444)x345.0, glue set 223.58311fil
 ....\hbox(0.0+0.0)x15.0
 ....\OT1/cmr/m/n/10 O
 ....\OT1/cmr/m/n/10 v
@@ -199,10 +178,7 @@ Completed box being shipped out [2]
 ....\OT1/cmr/m/n/10 r
 ....\OT1/cmr/m/n/10 l
 ....\OT1/cmr/m/n/10 a
-....\kern-0.27779
-....\OT1/cmr/m/n/10 y
-....\kern-0.27779
-....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 i
 ....\OT1/cmr/m/n/10 d
 ....\glue 3.33333 plus 1.66666 minus 1.11111
 ....\OT1/cmr/m/n/10 t
@@ -236,45 +212,35 @@ Completed box being shipped out [2]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
  <./pdfoverlay-sample.pdf>
 Completed box being shipped out [3]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -338,24 +304,16 @@ Completed box being shipped out [3]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 <pdfoverlay-sample.pdf, id=22, page=3, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 3>
@@ -365,45 +323,40 @@ Completed box being shipped out [4]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -431,24 +384,16 @@ Completed box being shipped out [4]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
  <./pdfoverlay-sample.pdf>
 <pdfoverlay-sample.pdf, id=26, page=4, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
@@ -459,45 +404,40 @@ Completed box being shipped out [5]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -525,24 +465,16 @@ Completed box being shipped out [5]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
  <./pdfoverlay-sample.pdf>
 <pdfoverlay-sample.pdf, id=30, page=5, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
@@ -553,45 +485,40 @@ Completed box being shipped out [6]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -606,7 +533,7 @@ Completed box being shipped out [6]
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
 ...\write-{}
 ...\glue(\topskip) 3.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 217.19423fil
+...\hbox(6.94444+1.94444)x345.0, glue set 223.58311fil
 ....\hbox(0.0+0.0)x15.0
 ....\OT1/cmr/m/n/10 O
 ....\OT1/cmr/m/n/10 v
@@ -615,10 +542,7 @@ Completed box being shipped out [6]
 ....\OT1/cmr/m/n/10 r
 ....\OT1/cmr/m/n/10 l
 ....\OT1/cmr/m/n/10 a
-....\kern-0.27779
-....\OT1/cmr/m/n/10 y
-....\kern-0.27779
-....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 i
 ....\OT1/cmr/m/n/10 d
 ....\glue 3.33333 plus 1.66666 minus 1.11111
 ....\OT1/cmr/m/n/10 t
@@ -652,24 +576,16 @@ Completed box being shipped out [6]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
  <./pdfoverlay-sample.pdf>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 3>
@@ -679,45 +595,40 @@ Completed box being shipped out [7]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -732,7 +643,7 @@ Completed box being shipped out [7]
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
 ...\write-{}
 ...\glue(\topskip) 3.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 212.74979fil
+...\hbox(6.94444+1.94444)x345.0, glue set 219.13867fil
 ....\hbox(0.0+0.0)x15.0
 ....\OT1/cmr/m/n/10 O
 ....\OT1/cmr/m/n/10 v
@@ -741,10 +652,7 @@ Completed box being shipped out [7]
 ....\OT1/cmr/m/n/10 r
 ....\OT1/cmr/m/n/10 l
 ....\OT1/cmr/m/n/10 a
-....\kern-0.27779
-....\OT1/cmr/m/n/10 y
-....\kern-0.27779
-....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 i
 ....\OT1/cmr/m/n/10 d
 ....\glue 3.33333 plus 1.66666 minus 1.11111
 ....\OT1/cmr/m/n/10 t
@@ -780,24 +688,16 @@ Completed box being shipped out [7]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 4>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
@@ -806,45 +706,40 @@ Completed box being shipped out [8]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -872,24 +767,16 @@ Completed box being shipped out [8]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
@@ -898,45 +785,40 @@ Completed box being shipped out [9]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 422.52252fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(845.04504+0.0)x0.0, glue set - 298.75342fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(422.52252+422.52252)x0.0, glue set - 597.50735fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(422.52252+422.52252)x298.75342
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -298.7534
+......\hbox(845.04504+0.0)x597.50682, shifted 422.52252
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(845.04504+0.0)x597.50682
+........\hbox(845.0471+0.0)x597.50829
+.........\hbox(845.0471+0.0)x597.50829
+..........\hbox(845.0471+0.0)x0.0
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(845.04504+0.0)x597.50682
-.............\hbox(845.0471+0.0)x597.50829
-..............\hbox(845.0471+0.0)x597.50829
-...............\hbox(845.0471+0.0)x0.0
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-...............\kern 597.50829
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+..........\kern 597.50829
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -951,7 +833,7 @@ Completed box being shipped out [9]
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
 ...\write-{}
 ...\glue(\topskip) 3.05556
-...\hbox(6.94444+1.94444)x345.0, glue set 217.19423fil
+...\hbox(6.94444+1.94444)x345.0, glue set 223.58311fil
 ....\hbox(0.0+0.0)x15.0
 ....\OT1/cmr/m/n/10 O
 ....\OT1/cmr/m/n/10 v
@@ -960,10 +842,7 @@ Completed box being shipped out [9]
 ....\OT1/cmr/m/n/10 r
 ....\OT1/cmr/m/n/10 l
 ....\OT1/cmr/m/n/10 a
-....\kern-0.27779
-....\OT1/cmr/m/n/10 y
-....\kern-0.27779
-....\OT1/cmr/m/n/10 e
+....\OT1/cmr/m/n/10 i
 ....\OT1/cmr/m/n/10 d
 ....\glue 3.33333 plus 1.66666 minus 1.11111
 ....\OT1/cmr/m/n/10 t
@@ -997,44 +876,34 @@ Completed box being shipped out [9]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 Completed box being shipped out [10]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -1089,24 +958,16 @@ Completed box being shipped out [10]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 1>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
@@ -1115,48 +976,43 @@ Completed box being shipped out [11]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 172.50081fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(345.0016+0.0)x0.0, glue set - 172.498fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(172.5008+172.50081)x0.0, glue set - 471.25194fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(172.5008+172.50081)x172.498
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -172.498
+......\hbox(345.0016+0.0)x344.996, shifted 172.50081
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(345.0016+0.0)x344.996
+........\hbox(345.00244+0.0)x344.99684
+.........\hbox(345.00244+0.0)x344.99684
+..........\hbox(345.00244+0.0)x0.0
+...........\pdfsave
+...........\pdfsetmatrix{.5774 0 0 .40826}
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(345.0016+0.0)x344.996
-.............\hbox(345.00244+0.0)x344.99684
-..............\hbox(345.00244+0.0)x344.99684
-...............\hbox(345.00244+0.0)x0.0
-................\pdfsave
-................\pdfsetmatrix{.5774 0 0 .40826}
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-................\pdfrestore
-...............\kern 344.99684
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+...........\pdfrestore
+..........\kern 344.99684
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -1184,24 +1040,16 @@ Completed box being shipped out [11]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
@@ -1210,48 +1058,43 @@ Completed box being shipped out [12]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(845.04684+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\hbox(0.0+422.52342)x0.0, shifted -845.04684
-.........\kern 0.0
-.........\hbox(0.0+0.0)x0.0, glue set - 298.75394fil, shifted 422.52342
-..........\kern 298.75394
-..........\vbox(0.0+0.0)x0.0, glue set - 172.50081fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\hbox(345.0016+0.0)x0.0, glue set - 172.498fil
+...\hbox(0.0+0.0)x0.0
+....\hbox(172.5008+172.50081)x0.0, glue set - 471.25194fil, shifted 422.52342
+.....\kern 298.75394
+.....\hbox(172.5008+172.50081)x172.498
+......\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\kern -172.498
+......\hbox(345.0016+0.0)x344.996, shifted 172.50081
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\hbox(345.0016+0.0)x344.996
+........\hbox(345.00244+0.0)x344.99684
+.........\hbox(345.00244+0.0)x344.99684
+..........\hbox(345.00244+0.0)x0.0
+...........\pdfsave
+...........\pdfsetmatrix{.5774 0 0 .40826}
+...........\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
+............\hbox(845.0471+0.0)x597.50829
+.............\pdfrefximage(845.0471+0.0)x597.50829
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-............\hbox(345.0016+0.0)x344.996
-.............\hbox(345.00244+0.0)x344.99684
-..............\hbox(345.00244+0.0)x344.99684
-...............\hbox(345.00244+0.0)x0.0
-................\pdfsave
-................\pdfsetmatrix{.5774 0 0 .40826}
-................\hbox(845.0471+0.0)x0.0, glue set - 597.50829fil
-.................\hbox(845.0471+0.0)x597.50829
-..................\pdfrefximage(845.0471+0.0)x597.50829
-.................\glue 0.0 plus 1.0fil minus 1.0fil
-................\pdfrestore
-...............\kern 344.99684
-...............\glue 0.0 plus 1.0fil minus 1.0fil
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\glue 0.0 plus 1.0fil minus 1.0fil
-...........\kern 0.0
+...........\pdfrestore
+..........\kern 344.99684
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.........\glue 0.0 plus 1.0fil minus 1.0fil
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+.......\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
@@ -1279,22 +1122,14 @@ Completed box being shipped out [12]
 .\kern -682.0
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
-..\vbox(0.0+0.0)x345.0, glue set 72.26999fil
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
-...\glue(\parskip) 0.0
-...\hbox(0.0+0.0)x345.0, glue set 345.0fil
-....\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0
-.....\hbox(0.0+0.0)x0.0
-......\glue 0.0
-......\hbox(0.0+845.04684)x0.0
-.......\hbox(0.0+0.0)x0.0, shifted 845.04684
-........\kern 0.0
-........\glue 0.0 plus 1.0fil minus 1.0fil
-......\glue 0.0 plus 1.0fil minus 1.0fil
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 682.0
+.\kern 0.0
 (pdfoverlay001.aux)
