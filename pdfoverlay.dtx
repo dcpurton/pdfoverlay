@@ -60,9 +60,7 @@
 % \section{Acknowledgements}
 %
 % This package is particularly indebted to the \pkg{pdfpages} package to count
-% the number of pages in the PDF file, the \pkg{eso-pic} package to output
-% pages from the PDF file in the document background, and the \pkg{everypage}
-% package to ensure that PDF pages are inserted at every page in the document.
+% the number of pages in the PDF file.
 %
 % \section{Bug Reports and Feature Requests}
 %
@@ -108,10 +106,12 @@
 %   \end{syntax}
 %   Set the \meta{Options} to be passed to \cs{includegraphics} when each page
 %   of the PDF is output. See the \pkg{graphicx} package documentation for
-%   valid options. \textbf{Note} that it is not necessary to specify the
-%   \texttt{page} option as this is appended automatically in the right format.
-%   The default options are: \texttt{keepaspectratio,
-%   width=}\cs{paperwidth}\texttt{, height=}\cs{paperheight}.
+%   valid options.
+%
+%   \textbf{Note} that it is not necessary to specify the \texttt{page} option
+%   as this is appended automatically in the right format.  The default
+%   options are: \texttt{keepaspectratio, width=}\cs{paperwidth}\texttt{,
+%   height=}\cs{paperheight}.
 % \end{function}
 %
 % \begin{function}{\pdfoverlayIncludeToPage, \pdfoverlay_include_to_page:n}
@@ -166,24 +166,20 @@
 %    \end{macrocode}
 %
 %    \begin{macrocode}
-\RequirePackage{xparse}
-%    \end{macrocode}
-%
-%    \begin{macrocode}
+\NeedsTeXFormat{LaTeX2e}[2020-10-01]
 \ProvidesExplPackage{pdfoverlay}{2019/11/03}{1.1}
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
-% \noindent The \pkg{everypage} and \pkg{pdfpages} packages are required.
+% \noindent The \pkg{pdfpages} package is required.
 %
 %    \begin{macrocode}
-\RequirePackage{everypage,pdfpages}
+\RequirePackage{pdfpages}
 %    \end{macrocode}
 %
-% \noindent Call \cs{@@_output_pdf_page:} on every page using the
-% \pkg{everypage} package.
+% \noindent Call \cs{@@_output_pdf_page:} on every page.
 %    \begin{macrocode}
-\AddEverypageHook { \@@_output_pdf_page: }
+\AddToHook { shipout/background } { \@@_output_pdf_page: }
 %    \end{macrocode}
 %
 % \noindent Add an empty \cs{hbox:n} to the end of the document if an action
@@ -299,7 +295,7 @@
 %
 % \begin{macro}{\@@_output_pdf_page:}
 %   Main function to output the current page of the PDF file. This is called
-%   before every page is shipped using the \pkg{everypage} package.
+%   before every page is shipped using the \texttt{shipout/background} hook.
 %    \begin{macrocode}
 \cs_new:Nn \@@_output_pdf_page:
   {
@@ -318,17 +314,14 @@
       }
       {
 %    \end{macrocode}
-%   Place requested page from the PDF file in the background of the
-%   document page with the specified format.
-%    \begin{macrocode}
-        \AddToShipoutPictureBG*
-          {
-            \@@_format_pdf_page:
-          }
-%    \end{macrocode}
 %   Increment the current page counter.
 %    \begin{macrocode}
         \int_gincr:N \g_@@_page_int
+%    \end{macrocode}
+%   Place requested page from the PDF file in the background of the
+%   document page with the specified format.
+%    \begin{macrocode}
+        \@@_format_pdf_page:
 %    \end{macrocode}
 %   Set action pending flag to false.
 %    \begin{macrocode}
@@ -342,22 +335,22 @@
 %   Format the PDF page in the centre of the document page with options from
 %   \cs{g_@@_graphics_options_clist}. Although marked as private, this function
 %   could be redefined to position the PDF page at a different location on the
-%   document page. See the \pkg{eso-pic} package documentation for hints on how
-%   to position the PDF page.
+%   document page.
 %    \begin{macrocode}
 \cs_new:Nn \@@_format_pdf_page:
   {
-    \AtPageCenter
+    \hcoffin_set:Nn \l_tmpa_coffin
       {
-        \makebox (0, 0)
+        \use:x
           {
-            \use:x
-              {
-                \exp_not:N \includegraphics
-                  [ \clist_use:Nn \g_@@_graphics_options_clist { , } ]
-                  { \g_@@_pdf_file_name_str }
-              }
+            \exp_not:N \includegraphics
+              [ \clist_use:Nn \g_@@_graphics_options_clist { , } ]
+              { \g_@@_pdf_file_name_str }
           }
+      }
+    \put ( 0.5 \paperwidth, -0.5 \paperheight )
+      {
+        \coffin_typeset:Nnnnn \l_tmpa_coffin { hc } { vc } { 0pt } { 0pt }
       }
   }
 %    \end{macrocode}
@@ -448,8 +441,8 @@
 % \begin{macro}{\pdfoverlay_include_to_page:n}
 %   Output all pages in the PDF file up until the specified page. Since the
 %   actual PDF page is inserted by \cs{__pdfoverlay_output_pdf_page:} using the
-%   \pkg{everypage} package before the page is shipped, we just insert the
-%   required number of blank pages into the document.
+%   \texttt{shipout/background} hook, we just insert the required number of
+%   blank pages into the document.
 %    \begin{macrocode}
 \cs_new:Npn \pdfoverlay_include_to_page:n #1
   {
