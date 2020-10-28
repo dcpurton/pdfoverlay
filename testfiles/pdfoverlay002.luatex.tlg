@@ -30,28 +30,28 @@ For immediate help type H <return>.
 l. ...\pdfoverlaySkipToPage{0}
 PDF file `pdfoverlay-sample.pdf' does not contain page 0.
 Specify a page between 1 and 5.
-<pdfoverlay-sample.pdf, id=3, page=1, 597.50829pt x 845.04709pt>
+<pdfoverlay-sample.pdf, id=2, page=1, 597.50829pt x 845.04709pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 1>
 Package luatex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
 (luatex.def)             Requested size: 597.50682pt x 845.04503pt.
 [1
 <./pdfoverlay-sample.pdf>]
-<pdfoverlay-sample.pdf, id=13, page=2, 597.50829pt x 845.04709pt>
+<pdfoverlay-sample.pdf, id=12, page=2, 597.50829pt x 845.04709pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 2>
 Package luatex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
 (luatex.def)             Requested size: 597.50682pt x 845.04503pt.
 [2
 <./pdfoverlay-sample.pdf>]
-<pdfoverlay-sample.pdf, id=17, page=3, 597.50829pt x 845.04709pt>
+<pdfoverlay-sample.pdf, id=16, page=3, 597.50829pt x 845.04709pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 3>
 Package luatex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
 (luatex.def)             Requested size: 597.50682pt x 845.04503pt.
 [3
 <./pdfoverlay-sample.pdf>]
-<pdfoverlay-sample.pdf, id=21, page=4, 597.50829pt x 845.04709pt>
+<pdfoverlay-sample.pdf, id=20, page=4, 597.50829pt x 845.04709pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 4>
 Package luatex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
@@ -64,7 +64,7 @@ For immediate help type H <return>.
 l. ...\pdfoverlaySkipToPage{6}
 PDF file `pdfoverlay-sample.pdf' does not contain page 6.
 Specify a page between 1 and 5.
-<pdfoverlay-sample.pdf, id=25, page=5, 597.50829pt x 845.04709pt>
+<pdfoverlay-sample.pdf, id=24, page=5, 597.50829pt x 845.04709pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
 Package luatex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....

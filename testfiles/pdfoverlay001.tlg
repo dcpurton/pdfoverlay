@@ -1,6 +1,6 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-<pdfoverlay-sample.pdf, id=3, page=1, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=2, page=1, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 1>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page1 used on input line ....
@@ -34,29 +34,15 @@ Completed box being shipped out [1]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
 ...\write-{}
-...\pdfcolorstack 0 push {0 g 0 G}
 ...\glue(\topskip) 3.05556
 ...\hbox(6.94444+1.94444)x345.0, glue set 223.58311fil
 ....\hbox(0.0+0.0)x15.0
@@ -94,25 +80,9 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=15, page=2, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=14, page=2, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 2>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page2 used on input line ....
@@ -146,24 +116,11 @@ Completed box being shipped out [2]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -205,22 +162,6 @@ Completed box being shipped out [2]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
  <./pdfoverlay-sample.pdf>
 Completed box being shipped out [3]
@@ -232,24 +173,11 @@ Completed box being shipped out [3]
 ...\hbox(0.0+0.0)x0.0
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -297,24 +225,8 @@ Completed box being shipped out [3]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
 .\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
-.\kern 0.0
-<pdfoverlay-sample.pdf, id=22, page=3, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=21, page=3, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 3>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page3 used on input line ....
@@ -348,24 +260,11 @@ Completed box being shipped out [4]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
@@ -377,25 +276,9 @@ Completed box being shipped out [4]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=26, page=4, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=25, page=4, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 4>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page4 used on input line ....
@@ -429,24 +312,11 @@ Completed box being shipped out [5]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
@@ -458,25 +328,9 @@ Completed box being shipped out [5]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
  <./pdfoverlay-sample.pdf>
-<pdfoverlay-sample.pdf, id=30, page=5, 597.50829pt x 845.0471pt>
+<pdfoverlay-sample.pdf, id=29, page=5, 597.50829pt x 845.0471pt>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
 Package pdftex.def Info: pdfoverlay-sample.pdf , page5 used on input line ....
@@ -510,24 +364,11 @@ Completed box being shipped out [6]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -569,22 +410,6 @@ Completed box being shipped out [6]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
  <./pdfoverlay-sample.pdf>
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
@@ -620,24 +445,11 @@ Completed box being shipped out [7]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -681,22 +493,6 @@ Completed box being shipped out [7]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 4>
@@ -731,24 +527,11 @@ Completed box being shipped out [8]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
@@ -760,22 +543,6 @@ Completed box being shipped out [8]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
@@ -810,24 +577,11 @@ Completed box being shipped out [9]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -869,22 +623,6 @@ Completed box being shipped out [9]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 Completed box being shipped out [10]
 \vbox(682.0+0.0)x398.0
@@ -895,24 +633,11 @@ Completed box being shipped out [10]
 ...\hbox(0.0+0.0)x0.0
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x345.0, glue set 587.9372fil
@@ -951,22 +676,6 @@ Completed box being shipped out [10]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 1>
@@ -1004,24 +713,11 @@ Completed box being shipped out [11]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
@@ -1033,22 +729,6 @@ Completed box being shipped out [11]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 5>
@@ -1086,24 +766,11 @@ Completed box being shipped out [12]
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue 17.0
 .\vbox(665.0+0.0)x345.0, shifted 53.0
 ..\vbox(12.0+0.0)x345.0, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 push {0 g 0 G}
-....\hbox(0.0+0.0)x345.0
-....\pdfcolorstack 0 pop
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
 ..\vbox(598.0+0.0)x0.0, glue set 587.9372fil
@@ -1115,21 +782,5 @@ Completed box being shipped out [12]
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 30.0
 ..\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 push {0 g 0 G}
-...\hbox(0.0+0.0)x345.0
-...\pdfcolorstack 0 pop
-.\kern 0.0
-.\kern -682.0
-.\hbox(0.0+0.0)x0.0
-..\kern -72.26999
-..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
-...\kern -72.26999
-...\hbox(0.0+0.0)x0.0
-....\hbox(0.0+0.0)x0.0, shifted 845.04684
-.....\kern 0.0
-.....\glue 0.0 plus 1.0fil minus 1.0fil
-....\glue 0.0 plus 1.0fil minus 1.0fil
-...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 682.0
 .\kern 0.0
 (pdfoverlay001.aux)

@@ -20,11 +20,11 @@
 %
 % \changes{v1.0}{2018/05/08}{First public release}
 % \changes{v1.1}{2019/11/03}{Fix deprecated macros}
-% \changes{v1.2}{2020/10/18}{Update to use \pkg{l3hooks}}
+% \changes{v1.2}{2020/10/29}{Update to use \pkg{l3hooks}}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
-% \date{2020/10/18 v1.2}
+% \date{2020/10/29 v1.2}
 %
 % \maketitle
 %
@@ -57,11 +57,6 @@
 % normal flowing from one page to another or with manual page breaks if you
 % wish. It's also possible to use any standard method to position text at
 % arbitrary places on a given page.
-%
-% \section{Acknowledgements}
-%
-% This package is particularly indebted to the \pkg{pdfpages} package to count
-% the number of pages in the PDF file.
 %
 % \section{Bug Reports and Feature Requests}
 %
@@ -172,10 +167,10 @@
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
-% \noindent The \pkg{pdfpages} package is required.
+% \noindent The \pkg{graphicx} package is required.
 %
 %    \begin{macrocode}
-\RequirePackage{pdfpages}
+\RequirePackage{graphicx}
 %    \end{macrocode}
 %
 % \noindent Call \cs{@@_output_pdf_page:} on every page.
@@ -238,6 +233,26 @@
     but~the~current~page~is~already~at~page~#2. \\
     Specify~a~page~between~#2~and~#3. }
 %    \end{macrocode}
+%
+% \noindent Error message when running in DVI mode. The \pkg{pdfoverlay}
+% package does not support DVI mode for either \texttt{pdflatex} or
+% \texttt{lualatex}.
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { dvi-mode }
+  { DVI~mode~not~supported. }
+  { DVI~mode~of~#1~is~not~supported. \\
+    You~must~use~PDF~mode. }
+%    \end{macrocode}
+%
+% \noindent Error message for unsupported engine. Only \texttt{pdftex},
+% \texttt{luatex}, and \texttt{xetex} are supported.
+%    \begin{macrocode}
+\msg_new:nnnn { pdfoverlay } { unsupported-engine }
+  { #1~not~supported. }
+  { The~#1~engine~is~not~supported. \\
+    Use~one~of~pdftex,~luatex,~or~xetex. }
+%    \end{macrocode}
+%
 %
 % \subsection{Private Variables and Helper Functions}
 %
@@ -357,6 +372,57 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\@@_count_pdf_pages:}
+%   Count the number of pages in the current \cs{g_@@_pdf_file_name_str} and
+%   store the result in \cs{g_@@_pdf_page_count_int}. If no PDF has been set
+%   with \cs{pdfoverlay_set_pdf} then \cs{g_@@_pdf_page_count_int} is set to
+%   zero.
+%    \begin{macrocode}
+\cs_new:Nn \@@_count_pdf_pages:
+  {
+    \int_gzero:N \g_@@_page_count_int
+    \str_if_empty:NTF \g_@@_pdf_file_name_str
+      {
+        \msg_error:nn { pdfoverlay } { file-not-set }
+      }
+      {
+        \sys_if_engine_xetex:TF
+          {
+            \int_gset:Nn \g_@@_page_count_int
+              {
+                \XeTeXpdfpagecount " \g_@@_pdf_file_name_str "
+              }
+          }
+          {
+            \sys_if_output_pdf:TF
+              {
+                \sys_if_engine_pdftex:TF
+                  {
+                    \pdfximage { \g_@@_pdf_file_name_str }
+                    \int_gset_eq:NN \g_@@_page_count_int \pdflastximagepages
+                  }
+                  {
+                    \sys_if_engine_luatex:TF
+                      {
+                        \saveimageresource { \g_@@_pdf_file_name_str }
+                        \int_gset_eq:NN \g_@@_page_count_int \lastsavedimageresourcepages
+                        }
+                      {
+                        \msg_error:nnx { pdfoverlay } { unsupported-engine }
+                          { \c_sys_engine_str }
+                      }
+                  }
+              }
+              {
+                \msg_error:nnx { pdfoverlay } { dvi-mode }
+                  { \c_sys_engine_str }
+              }
+          }
+      }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}[pTF]{\@@_check_page:n}
 %   Check if a PDF file has been set and the requested page is valid. If not,
 %   generate suitable error messages.
@@ -403,15 +469,13 @@
       {
         \str_gset:Nn \g_@@_pdf_file_name_str { #1 }
 %    \end{macrocode}
-%   Use the \pkg{pdfpages} package to find the number of pages in the PDF file.
+%   Find the number of pages in the PDF file.
 %    \begin{macrocode}
-        \tl_set:Nx \AM@currentdocname { #1 }
-        \AM@getpagecount
+        \@@_count_pdf_pages:
 %    \end{macrocode}
 %   Initialise variables.
 %    \begin{macrocode}
-        \int_gset_eq:NN \g_@@_page_count_int \AM@pagecount
-        \int_gset_eq:NN \g_@@_page_int \c_zero_int
+        \int_gzero:N \g_@@_page_int
         \bool_gset_true:N \g_@@_output_active_bool
         \bool_gset_false:N \g_@@_action_pending_bool
       }

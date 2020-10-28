@@ -1,6 +1,7 @@
 -- Build configuration for pdfoverlay
 
 module = "pdfoverlay"
+checkformat = "latex-dev"
 
 -- Detail how to set the version automatically
 function update_tag(file, content, tagname, tagdate)
