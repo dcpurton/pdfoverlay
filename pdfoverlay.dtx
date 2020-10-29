@@ -429,13 +429,18 @@
                 \sys_if_engine_pdftex:TF
                   {
                     \pdfximage { \g_@@_pdf_file_name_str }
-                    \int_gset_eq:NN \g_@@_page_count_int \pdflastximagepages
+                    \int_gset_eq:NN
+                      \g_@@_page_count_int
+                      \pdflastximagepages
                   }
                   {
                     \sys_if_engine_luatex:TF
                       {
-                        \saveimageresource { \g_@@_pdf_file_name_str }
-                        \int_gset_eq:NN \g_@@_page_count_int \lastsavedimageresourcepages
+                        \saveimageresource
+                          { \g_@@_pdf_file_name_str }
+                        \int_gset_eq:NN
+                          \g_@@_page_count_int
+                          \lastsavedimageresourcepages
                         }
                       {
                         \msg_error:nnx { pdfoverlay } { unsupported-engine }
