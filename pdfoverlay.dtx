@@ -309,6 +309,14 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\g_@@_pdf_page_coffin}
+%   The current PDF page is set in this coffin which can then be positioned on
+%   the page.
+%    \begin{macrocode}
+\coffin_new:N \g_@@_pdf_page_coffin
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\@@_output_pdf_page:}
 %   Main function to output the current page of the PDF file. This is called
 %   before every page is shipped using the \texttt{shipout/background} hook.
@@ -338,6 +346,7 @@
 %   document page with the specified format.
 %    \begin{macrocode}
         \@@_format_pdf_page:
+        \@@_place_pdf_page:
 %    \end{macrocode}
 %   Set action pending flag to false.
 %    \begin{macrocode}
@@ -355,7 +364,7 @@
 %    \begin{macrocode}
 \cs_new:Nn \@@_format_pdf_page:
   {
-    \hcoffin_set:Nn \l_tmpa_coffin
+    \hcoffin_gset:Nn \g_@@_pdf_page_coffin
       {
         \use:x
           {
@@ -364,9 +373,31 @@
               { \g_@@_pdf_file_name_str }
           }
       }
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_place_pdf_page:}
+%   Place the PDF page in the centre of the document page.
+%
+%   Although marked as private, this function could be redefined to position
+%   the PDF page at a different location on the document page.
+%
+%   This macro is called from within the \texttt{shipout\slash background}
+%   hook, which adds a picture environment into the background of the page
+%   with the (0,0) coordinate in the top-left corner using a \cs{unitlength}
+%   of 1pt.  It should therefore only receive \put commands or other commands
+%   suitable in a picture environment and the vertical coordinate values would
+%   normally be negative.
+%
+%   The PDF page to be placed is available as the coffin
+%   \cs{\g_@@_pdf_page_coffin}.
+%    \begin{macrocode}
+\cs_new:Nn \@@_place_pdf_page:
+  {
     \put ( 0.5 \paperwidth, -0.5 \paperheight )
       {
-        \coffin_typeset:Nnnnn \l_tmpa_coffin { hc } { vc } { 0pt } { 0pt }
+        \coffin_typeset:Nnnnn \g_@@_pdf_page_coffin { hc } { vc } { 0pt } { 0pt }
       }
   }
 %    \end{macrocode}
