@@ -357,10 +357,8 @@
 % \end{macro}
 %
 % \begin{macro}{\@@_format_pdf_page:}
-%   Format the PDF page in the centre of the document page with options from
-%   \cs{g_@@_graphics_options_clist}. Although marked as private, this function
-%   could be redefined to position the PDF page at a different location on the
-%   document page.
+%   Format the PDF page with options from \cs{g_@@_graphics_options_clist} and
+%   place it in \cs{g_@@_pdf_page_coffin}.
 %    \begin{macrocode}
 \cs_new:Nn \@@_format_pdf_page:
   {
@@ -385,7 +383,7 @@
 %
 %   This macro is called from within the \texttt{shipout\slash background}
 %   hook, which adds a picture environment into the background of the page
-%   with the (0,0) coordinate in the top-left corner using a \cs{unitlength}
+%   with the (0, 0) coordinate in the top-left corner using a \cs{unitlength}
 %   of 1pt. It should therefore only receive \cs{put} commands or other
 %   commands suitable in a picture environment and the vertical coordinate
 %   values would normally be negative.
@@ -397,7 +395,8 @@
   {
     \put ( 0.5 \paperwidth, -0.5 \paperheight )
       {
-        \coffin_typeset:Nnnnn \g_@@_pdf_page_coffin { hc } { vc } { 0pt } { 0pt }
+        \coffin_typeset:Nnnnn \g_@@_pdf_page_coffin
+          { hc } { vc } { 0pt } { 0pt }
       }
   }
 %    \end{macrocode}
