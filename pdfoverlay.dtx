@@ -386,12 +386,12 @@
 %   This macro is called from within the \texttt{shipout\slash background}
 %   hook, which adds a picture environment into the background of the page
 %   with the (0,0) coordinate in the top-left corner using a \cs{unitlength}
-%   of 1pt.  It should therefore only receive \put commands or other commands
-%   suitable in a picture environment and the vertical coordinate values would
-%   normally be negative.
+%   of 1pt. It should therefore only receive \cs{put} commands or other
+%   commands suitable in a picture environment and the vertical coordinate
+%   values would normally be negative.
 %
 %   The PDF page to be placed is available as the coffin
-%   \cs{\g_@@_pdf_page_coffin}.
+%   \cs{g_@@_pdf_page_coffin}.
 %    \begin{macrocode}
 \cs_new:Nn \@@_place_pdf_page:
   {
