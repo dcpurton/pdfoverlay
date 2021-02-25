@@ -1,6 +1,6 @@
 % \iffalse meta-comment
 %
-% Copyright (c) 2018-2020 David Purton <dcpurton@marshwiggle.net>
+% Copyright (c) 2018-2021 David Purton <dcpurton@marshwiggle.net>
 %
 % This work may be distributed and/or modified under the conditions of
 % the LaTeX Project Public License, either version 1.3c of this license
@@ -21,10 +21,11 @@
 % \changes{v1.0}{2018/05/08}{First public release}
 % \changes{v1.1}{2019/11/03}{Fix deprecated macros}
 % \changes{v1.2}{2020/10/29}{Update to use \pkg{l3hooks}}
+% \changes{v1.2a}{2021/02/25}{Ensure backend loaded before counting pages}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
-% \date{2020/10/29 v1.2}
+% \date{2021/02/25 v1.2a}
 %
 % \maketitle
 %
@@ -163,7 +164,7 @@
 %
 %    \begin{macrocode}
 \NeedsTeXFormat{LaTeX2e}[2020-10-01]
-\ProvidesExplPackage{pdfoverlay}{2020/10/18}{1.2}
+\ProvidesExplPackage{pdfoverlay}{2021/02/25}{1.2a}
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
@@ -424,6 +425,10 @@
               }
           }
           {
+            \str_if_exist:NF \c_sys_backend_str
+              {
+                \sys_load_backend:n { }
+              }
             \sys_if_output_pdf:TF
               {
                 \sys_if_engine_pdftex:TF
