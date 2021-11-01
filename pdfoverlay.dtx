@@ -322,7 +322,7 @@
 %   Main function to output the current page of the PDF file. This is called
 %   before every page is shipped using the \texttt{shipout/background} hook.
 %    \begin{macrocode}
-\cs_new:Nn \@@_output_pdf_page:
+\cs_new_protected:Nn \@@_output_pdf_page:
   {
 %    \end{macrocode}
 %   Check if we are currently outputting pages, a PDF file has been set, and
@@ -361,7 +361,7 @@
 %   Format the PDF page with options from \cs{g_@@_graphics_options_clist} and
 %   place it in \cs{g_@@_pdf_page_coffin}.
 %    \begin{macrocode}
-\cs_new:Nn \@@_format_pdf_page:
+\cs_new_protected:Nn \@@_format_pdf_page:
   {
     \hcoffin_gset:Nn \g_@@_pdf_page_coffin
       {
@@ -409,7 +409,7 @@
 %   with \cs{pdfoverlay_set_pdf} then \cs{g_@@_pdf_page_count_int} is set to
 %   zero.
 %    \begin{macrocode}
-\cs_new:Nn \@@_count_pdf_pages:
+\cs_new_protected:Nn \@@_count_pdf_pages:
   {
     \int_gzero:N \g_@@_page_count_int
     \str_if_empty:NTF \g_@@_pdf_file_name_str
@@ -467,7 +467,7 @@
 %   Check if a PDF file has been set and the requested page is valid. If not,
 %   generate suitable error messages.
 %    \begin{macrocode}
-\prg_new_conditional:Npnn \@@_if_page_exists:n #1 { p, T, F, TF }
+\prg_new_conditional:Nnn \@@_if_page_exists:n { p, T, F, TF }
   {
     \str_if_empty:NTF \g_@@_pdf_file_name_str
       {
@@ -500,7 +500,7 @@
 % \begin{macro}{\pdfoverlay_set_pdf:n}
 %   Specify a PDF file to overlay text on to.
 %    \begin{macrocode}
-\cs_new:Npn \pdfoverlay_set_pdf:n #1
+\cs_new_protected:Nn \pdfoverlay_set_pdf:n
   {
 %    \end{macrocode}
 %   Test if the file exists and generate a suitable error if it doesn't.
@@ -532,7 +532,7 @@
 % \texttt{page} option is appended automatically in the
 % correct format.
 %    \begin{macrocode}
-\cs_new:Nn \pdfoverlay_set_graphics_options:n
+\cs_new_protected:Nn \pdfoverlay_set_graphics_options:n
   {
     \clist_gset:Nn \g_@@_graphics_options_clist { #1 }
     \clist_gput_right:Nn \g_@@_graphics_options_clist
@@ -549,7 +549,7 @@
 %   \texttt{shipout/background} hook, we just insert the required number of
 %   blank pages into the document.
 %    \begin{macrocode}
-\cs_new:Npn \pdfoverlay_include_to_page:n #1
+\cs_new_protected:Nn \pdfoverlay_include_to_page:n
   {
 %    \end{macrocode}
 %   Check if a PDF file is set and the requested page exists.
@@ -606,7 +606,7 @@
 % \begin{macro}{\pdfoverlay_include_to_last_page:}
 %   Output all remaining pages in the PDF file.
 %    \begin{macrocode}
-\cs_new:Nn \pdfoverlay_include_to_last_page:
+\cs_new_protected:Nn \pdfoverlay_include_to_last_page:
   {
       \pdfoverlay_include_to_page:n { \g_@@_page_count_int }
   }
@@ -616,8 +616,8 @@
 % \begin{macro}{\pdfoverlay_skip_to_page:n}
 %   Skip to the specified page number in the PDF file.
 %    \begin{macrocode}
-\cs_new:Npn \pdfoverlay_skip_to_page:n #1
-  { 
+\cs_new_protected:Nn \pdfoverlay_skip_to_page:n
+  {
     \@@_if_page_exists:nT { #1 }
       {
 %    \end{macrocode}
@@ -645,7 +645,7 @@
 % \begin{macro}{\pdfoverlay_pause_output:}
 %   Pause outputting pages from the PDF file.
 %    \begin{macrocode}
-\cs_new:Nn \pdfoverlay_pause_output:
+\cs_new_protected:Nn \pdfoverlay_pause_output:
   {
     \bool_gset_false:N \g_@@_output_active_bool
   }
@@ -655,7 +655,7 @@
 % \begin{macro}{\pdfoverlay_resume_output:}
 %   Resume outputting pages from the PDF file.
 %    \begin{macrocode}
-\cs_new:Nn \pdfoverlay_resume_output:
+\cs_new_protected:Nn \pdfoverlay_resume_output:
   {
     \bool_gset_true:N \g_@@_output_active_bool
   }
