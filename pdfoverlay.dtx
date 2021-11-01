@@ -22,10 +22,11 @@
 % \changes{v1.1}{2019/11/03}{Fix deprecated macros}
 % \changes{v1.2}{2020/10/29}{Update to use \pkg{l3hooks}}
 % \changes{v1.2a}{2021/02/25}{Ensure backend loaded before counting pages}
+% \changes{v1.2b}{2021/11/01}{Protect unexpandable macros}
 %
 % \title{The \pkg{pdfoverlay} package}
 % \author{David Purton\thanks{Email: \url{dcpurton@marshwiggle.net}}}
-% \date{2021/02/25 v1.2a}
+% \date{2021/11/01 v1.2b}
 %
 % \maketitle
 %
@@ -164,7 +165,7 @@
 %
 %    \begin{macrocode}
 \NeedsTeXFormat{LaTeX2e}[2020-10-01]
-\ProvidesExplPackage{pdfoverlay}{2021/02/25}{1.2a}
+\ProvidesExplPackage{pdfoverlay}{2021/11/01}{1.2b}
   {Overlay text on an existing PDF document (DCP)}
 %    \end{macrocode}
 %
