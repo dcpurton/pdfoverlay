@@ -393,7 +393,7 @@
 %   The PDF page to be placed is available as the coffin
 %   \cs{g_@@_pdf_page_coffin}.
 %    \begin{macrocode}
-\cs_new:Nn \@@_place_pdf_page:
+\cs_new_protected:Nn \@@_place_pdf_page:
   {
     \put ( 0.5 \paperwidth, -0.5 \paperheight )
       {
