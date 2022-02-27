@@ -1,0 +1,9 @@
+\documentclass[a4paper]{article}
+\input{regression-test}
+\newcommand*{\pdffilename}{not-found.pdf}
+\usepackage{pdfoverlay}
+\START
+\pdfoverlaySetPDF{\pdffilename}
+\END
+\begin{document}
+\end{document}

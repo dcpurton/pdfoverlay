@@ -1,0 +1,8 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+! Package pdfoverlay Error: PDF file `not-found.pdf' not found.
+For immediate help type H <return>.
+ ...                                              
+l. ...\pdfoverlaySetPDF{\pdffilename}
+Unable to find the file `not-found.pdf'.
+Check that the file exists and you have spelt it correctly.
