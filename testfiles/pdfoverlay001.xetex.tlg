@@ -58,7 +58,6 @@ Completed box being shipped out [1]
 ....\TU/lmr/m/n/10 page
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 1.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -127,7 +126,6 @@ Completed box being shipped out [2]
 ....\TU/lmr/m/n/10 page
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 2.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -172,7 +170,6 @@ Completed box being shipped out [3]
 ....\TU/lmr/m/n/10 and
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 3.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -346,7 +343,6 @@ Completed box being shipped out [6]
 ....\TU/lmr/m/n/10 page
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 5.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -416,7 +412,6 @@ Completed box being shipped out [7]
 ....\TU/lmr/m/n/10 3.
 ....\glue 4.44 plus 4.99498 minus 0.37
 ....\hbox(0.0+0.0)x0.0
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -537,7 +532,6 @@ Completed box being shipped out [9]
 ....\TU/lmr/m/n/10 page
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 5.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -578,7 +572,6 @@ Completed box being shipped out [10]
 ....\TU/lmr/m/n/10 last
 ....\glue 3.33 plus 1.665 minus 1.11
 ....\TU/lmr/m/n/10 page.
-....\kern 0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
