@@ -1,0 +1,12 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+! Package pdfoverlay Error: Page not found in PDF.
+For immediate help type H <return>.
+ ...                                              
+l. ...\pdfoverlaySkipToPage{6}
+PDF file `pdfoverlay-sample.pdf' does not contain page 6.
+Specify a page between 1 and 5.
+File: pdfoverlay-sample.pdf Graphic file (type pdf)
+<use pdfoverlay-sample.pdf, page 5>
+[1
+] (pdfoverlay003.aux)

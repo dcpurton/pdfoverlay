@@ -1,0 +1,12 @@
+\documentclass[a4paper]{article}
+\input{regression-test}
+\newcommand*{\pdffilename}{pdfoverlay-sample.pdf}
+\usepackage{pdfoverlay}
+\pagestyle{empty}
+\begin{document}
+\START
+\pdfoverlaySetPDF{\pdffilename}
+\pdfoverlaySkipToPage{5}
+Overlaid text on page 5.
+\pdfoverlaySkipToPage{6}
+\end{document}
