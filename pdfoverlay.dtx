@@ -258,10 +258,10 @@
 %
 % \subsection{Private Variables and Helper Functions}
 %
-% \begin{macro}{\g_@@_pdf_file_name_str}
+% \begin{macro}{\g_@@_pdf_file_name_tl}
 %   Store the PDF file name.
 %    \begin{macrocode}
-\str_new:N \g_@@_pdf_file_name_str
+\tl_new:N \g_@@_pdf_file_name_tl
 %    \end{macrocode}
 % \end{macro}
 %
@@ -333,7 +333,7 @@
       {
         { \bool_if_p:N \g_@@_output_active_bool }
         { \bool_not_p:n
-            { \str_if_empty_p:N \g_@@_pdf_file_name_str } }
+            { \tl_if_empty_p:N \g_@@_pdf_file_name_tl } }
         { \int_compare_p:n
             { \c_zero_int <= \g_@@_page_int
               < \g_@@_page_count_int } }
@@ -370,7 +370,7 @@
           {
             \exp_not:N \includegraphics
               [ \clist_use:Nn \g_@@_graphics_options_clist { , } ]
-              { \g_@@_pdf_file_name_str }
+              { \g_@@_pdf_file_name_tl }
           }
       }
   }
@@ -405,7 +405,7 @@
 % \end{macro}
 %
 % \begin{macro}{\@@_count_pdf_pages:}
-%   Count the number of pages in the current \cs{g_@@_pdf_file_name_str} and
+%   Count the number of pages in the current \cs{g_@@_pdf_file_name_tl} and
 %   store the result in \cs{g_@@_pdf_page_count_int}. If no PDF has been set
 %   with \cs{pdfoverlay_set_pdf} then \cs{g_@@_pdf_page_count_int} is set to
 %   zero.
@@ -413,7 +413,7 @@
 \cs_new_protected:Nn \@@_count_pdf_pages:
   {
     \int_gzero:N \g_@@_page_count_int
-    \str_if_empty:NTF \g_@@_pdf_file_name_str
+    \tl_if_empty:NTF \g_@@_pdf_file_name_tl
       {
         \msg_error:nn { pdfoverlay } { file-not-set }
       }
@@ -422,7 +422,7 @@
           {
             \int_gset:Nn \g_@@_page_count_int
               {
-                \XeTeXpdfpagecount " \g_@@_pdf_file_name_str "
+                \XeTeXpdfpagecount " \g_@@_pdf_file_name_tl "
               }
           }
           {
@@ -434,7 +434,7 @@
               {
                 \sys_if_engine_pdftex:TF
                   {
-                    \pdfximage { \g_@@_pdf_file_name_str }
+                    \pdfximage { \g_@@_pdf_file_name_tl }
                     \int_gset_eq:NN
                       \g_@@_page_count_int
                       \pdflastximagepages
@@ -443,7 +443,7 @@
                     \sys_if_engine_luatex:TF
                       {
                         \saveimageresource
-                          { \g_@@_pdf_file_name_str }
+                          { \g_@@_pdf_file_name_tl }
                         \int_gset_eq:NN
                           \g_@@_page_count_int
                           \lastsavedimageresourcepages
@@ -470,7 +470,7 @@
 %    \begin{macrocode}
 \prg_new_conditional:Nnn \@@_if_page_exists:n { p, T, F, TF }
   {
-    \str_if_empty:NTF \g_@@_pdf_file_name_str
+    \tl_if_empty:NTF \g_@@_pdf_file_name_tl
       {
         \msg_error:nn { pdfoverlay } { file-not-set }
         \prg_return_false:
@@ -485,7 +485,7 @@
           }
           {
             \msg_error:nnxxx { pdfoverlay } { page-not-found }
-              { \str_use:N \g_@@_pdf_file_name_str }
+              { \g_@@_pdf_file_name_tl }
               { \int_eval:n { #1 } }
               { \int_use:N \g_@@_page_count_int }
             \prg_return_false:
@@ -508,7 +508,7 @@
 %    \begin{macrocode}
     \file_if_exist:nTF { #1 }
       {
-        \str_gset:Nn \g_@@_pdf_file_name_str { #1 }
+        \tl_gset:Nn \g_@@_pdf_file_name_tl { #1 }
 %    \end{macrocode}
 %   Find the number of pages in the PDF file.
 %    \begin{macrocode}
