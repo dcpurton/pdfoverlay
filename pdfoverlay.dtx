@@ -178,14 +178,14 @@
 %
 % \noindent Call \cs{@@_output_pdf_page:} on every page.
 %    \begin{macrocode}
-\AddToHook { shipout/background } { \@@_output_pdf_page: }
+\hook_gput_code:nnn { shipout/background } { pdfoverlay } { \@@_output_pdf_page: }
 %    \end{macrocode}
 %
 % \noindent Add an empty \cs{hbox:n} to the end of the document if an action
 % is pending. This is required to ensure that the last requested page from the
 % PDF file is output even if there isn't any other content on the page.
 %    \begin{macrocode}
-\AtEndDocument {
+\hook_gput_code:nnn { enddocument } { pdfoverlay } {
   \bool_if:NT \g_@@_action_pending_bool
     {
       \hbox:n { }
