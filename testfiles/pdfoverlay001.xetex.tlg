@@ -5,8 +5,6 @@ File: pdfoverlay-sample.pdf Graphic file (type pdf)
 Completed box being shipped out [1]
 \vbox(682.0+0.0)x398.0
 .\hbox(0.0+0.0)x0.0
-..\special{pdfcolorstackinit 1 page direct (0 g 0 G)}
-.\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
 ...\kern -72.26999
@@ -18,7 +16,7 @@ Completed box being shipped out [1]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -32,7 +30,7 @@ Completed box being shipped out [1]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -69,7 +67,6 @@ Completed box being shipped out [1]
 ..\hbox(0.0+0.0)x345.0
 ...\hbox(0.0+0.0)x345.0
 .\kern 0.0
-.\kern 0.0
 File: pdfoverlay-sample.pdf Graphic file (type pdf)
 <use pdfoverlay-sample.pdf, page 2>
 Completed box being shipped out [2]
@@ -86,7 +83,7 @@ Completed box being shipped out [2]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -100,7 +97,7 @@ Completed box being shipped out [2]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -197,7 +194,7 @@ Completed box being shipped out [4]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -211,7 +208,7 @@ Completed box being shipped out [4]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -250,7 +247,7 @@ Completed box being shipped out [5]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -264,7 +261,7 @@ Completed box being shipped out [5]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -303,7 +300,7 @@ Completed box being shipped out [6]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -317,7 +314,7 @@ Completed box being shipped out [6]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -370,7 +367,7 @@ Completed box being shipped out [7]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -384,7 +381,7 @@ Completed box being shipped out [7]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -439,7 +436,7 @@ Completed box being shipped out [8]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -453,7 +450,7 @@ Completed box being shipped out [8]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -492,7 +489,7 @@ Completed box being shipped out [9]
 ......\kern 0.0
 ......\kern -298.75342
 ......\hbox(845.045+0.0)x597.50684, shifted 422.5225
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(845.045+0.0)x597.50684
 ........\hbox(845.04706+0.0)x597.5083
 .........\hbox(845.04706+0.0)x597.5083
@@ -506,7 +503,7 @@ Completed box being shipped out [9]
 ...........\special{pdf:etrans}
 ..........\kern 597.5083
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -599,7 +596,7 @@ Completed box being shipped out [11]
 ......\kern 0.0
 ......\kern -172.498
 ......\hbox(345.00157+0.0)x344.996, shifted 172.5008
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(345.00157+0.0)x344.996
 ........\hbox(345.00243+0.0)x344.99686
 .........\hbox(345.00243+0.0)x344.99686
@@ -613,7 +610,7 @@ Completed box being shipped out [11]
 ...........\special{pdf:etrans}
 ..........\kern 344.99686
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
@@ -652,7 +649,7 @@ Completed box being shipped out [12]
 ......\kern 0.0
 ......\kern -172.498
 ......\hbox(345.00157+0.0)x344.996, shifted 172.5008
-.......\special{pdfcolorstack 1 push (0 g 0 G)}
+.......\special{pdf:bc [0]}
 .......\hbox(345.00157+0.0)x344.996
 ........\hbox(345.00243+0.0)x344.99686
 .........\hbox(345.00243+0.0)x344.99686
@@ -666,7 +663,7 @@ Completed box being shipped out [12]
 ...........\special{pdf:etrans}
 ..........\kern 344.99686
 ..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\special{pdfcolorstack 1 pop}
+.......\special{pdf:ec}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
