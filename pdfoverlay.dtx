@@ -173,24 +173,26 @@
 % \noindent The \pkg{graphicx} package is required.
 %
 %    \begin{macrocode}
-\RequirePackage{graphicx}
+\RequirePackage { graphicx }
 %    \end{macrocode}
 %
 % \noindent Call \cs{@@_output_pdf_page:} on every page.
 %    \begin{macrocode}
-\hook_gput_code:nnn { shipout/background } { pdfoverlay } { \@@_output_pdf_page: }
+\hook_gput_code:nnn { shipout/background } { pdfoverlay }
+  { \@@_output_pdf_page: }
 %    \end{macrocode}
 %
 % \noindent Add an empty \cs{hbox:n} to the end of the document if an action
 % is pending. This is required to ensure that the last requested page from the
 % PDF file is output even if there isn't any other content on the page.
 %    \begin{macrocode}
-\hook_gput_code:nnn { enddocument } { pdfoverlay } {
-  \bool_if:NT \g_@@_action_pending_bool
-    {
-      \hbox:n { }
-    }
-}
+\hook_gput_code:nnn { enddocument } { pdfoverlay }
+  {
+    \bool_if:NT \g_@@_action_pending_bool
+      {
+        \hbox:n { }
+      }
+  }
 %    \end{macrocode}
 %
 % \subsection{Messages}
@@ -302,7 +304,7 @@
 %   while keeping the original PDF page aspect ratio.
 %    \begin{macrocode}
 \clist_new:N \g_@@_graphics_options_clist
-\clist_set:Nn \g_@@_graphics_options_clist
+\clist_gset:Nn \g_@@_graphics_options_clist
   {
     keepaspectratio ,
     width  = \paperwidth ,
