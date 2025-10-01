@@ -480,16 +480,12 @@
       }
       {
         \int_compare:nTF
-          {
-            \c_one_int <= #1 <= \g_@@_page_count_int
-          }
-          {
-            \prg_return_true:
-          }
+          { \c_one_int <= #1 <= \g_@@_page_count_int }
+          { \prg_return_true: }
           {
             \msg_error:nnxxx { pdfoverlay } { page-not-found }
               { \g_@@_pdf_file_name_tl }
-              { \int_eval:n { #1 } }
+              { \int_eval:n {#1} }
               { \int_use:N \g_@@_page_count_int }
             \prg_return_false:
           }
@@ -509,9 +505,9 @@
 %    \end{macrocode}
 %   Test if the file exists and generate a suitable error if it doesn't.
 %    \begin{macrocode}
-    \file_if_exist:nTF { #1 }
+    \file_if_exist:nTF {#1}
       {
-        \tl_gset:Nn \g_@@_pdf_file_name_tl { #1 }
+        \tl_gset:Nn \g_@@_pdf_file_name_tl {#1}
 %    \end{macrocode}
 %   Find the number of pages in the PDF file.
 %    \begin{macrocode}
@@ -524,7 +520,7 @@
         \bool_gset_false:N \g_@@_action_pending_bool
       }
       {
-        \msg_error:nnx { pdfoverlay } { file-not-found } { #1 }
+        \msg_error:nnx { pdfoverlay } { file-not-found } {#1}
       }
   }
 %    \end{macrocode}
@@ -538,7 +534,7 @@
 %    \begin{macrocode}
 \cs_new_protected:Nn \pdfoverlay_set_graphics_options:n
   {
-    \clist_gset:Nn \g_@@_graphics_options_clist { #1 }
+    \clist_gset:Nn \g_@@_graphics_options_clist {#1}
     \clist_gput_right:Nn \g_@@_graphics_options_clist
       {
         page = \int_use:N \g_@@_page_int
@@ -558,15 +554,13 @@
 %    \end{macrocode}
 %   Check if a PDF file is set and the requested page exists.
 %    \begin{macrocode}
-    \@@_if_page_exists:nT { #1 }
+    \@@_if_page_exists:nT {#1}
       {
 %    \end{macrocode}
 %   Check if the requested page is greater than the current page.
 %    \begin{macrocode}
         \int_compare:nTF
-          {
-              #1 >= \g_@@_page_int + 1
-          }
+          { #1 >= \g_@@_page_int + 1 }
           {
 %    \end{macrocode}
 %   Check if an action is pending and start a new page if so.
@@ -598,7 +592,7 @@
           }
           {
             \msg_error:nnxxx { pdfoverlay } { page-too-low }
-              { \int_eval:n { #1 } }
+              { \int_eval:n {#1} }
               { \int_eval:n { \g_@@_page_int + 1 } }
               { \int_use:N \g_@@_page_count_int }
           }
@@ -622,7 +616,7 @@
 %    \begin{macrocode}
 \cs_new_protected:Nn \pdfoverlay_skip_to_page:n
   {
-    \@@_if_page_exists:nT { #1 }
+    \@@_if_page_exists:nT {#1}
       {
 %    \end{macrocode}
 %   Check if an action is pending and start a new page if so.
@@ -673,7 +667,7 @@
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlaySetPDF { m }
   {
-    \pdfoverlay_set_pdf:n { #1 }
+    \pdfoverlay_set_pdf:n {#1}
   }
 %    \end{macrocode}
 % \end{macro}
@@ -685,7 +679,7 @@
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlaySetGraphicsOptions { m }
   {
-    \pdfoverlay_set_graphics_options:n { #1 }
+    \pdfoverlay_set_graphics_options:n {#1}
   }
 %    \end{macrocode}
 % \end{macro}
@@ -695,7 +689,7 @@
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlayIncludeToPage { m }
   {
-    \pdfoverlay_include_to_page:n { #1 }
+    \pdfoverlay_include_to_page:n {#1}
   }
 %    \end{macrocode}
 % \end{macro}
@@ -715,7 +709,7 @@
 %    \begin{macrocode}
 \NewDocumentCommand \pdfoverlaySkipToPage { m }
   {
-    \pdfoverlay_skip_to_page:n { #1 }
+    \pdfoverlay_skip_to_page:n {#1}
   }
 %    \end{macrocode}
 % \end{macro}
