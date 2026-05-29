@@ -2,5 +2,6 @@ build
 *.swp
 *.aux
 *.log
+*.zip
 pdfoverlay.pdf
 
